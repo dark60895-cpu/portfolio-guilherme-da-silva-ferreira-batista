@@ -72,5 +72,4 @@ root/
 
 ---
 
-*Este portfólio reflete a fusão entre a experiência operacional logística e a precisão técnica do desenvolvimento de software, buscando excelência em cada linha de código.*
 
