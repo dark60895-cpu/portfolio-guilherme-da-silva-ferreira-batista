@@ -47,10 +47,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 | **Engenharia de Soluções Lógicas** | Desenvolvimento de algoritmos para resolução de problemas complexos, utilizando modelagem matemática e lógica proposicional para otimizar fluxos de decisão técnica. | [Ver Repositório](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | **Lógica Aplicada em Python** | Transposição rigorosa de fluxogramas e pseudocódigos para ambientes Python, priorizando a legibilidade (Clean Code), eficiência algorítmica e conformidade com a PEP 8. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | **Modularização de Sistemas** | Estruturação de software baseada em componentes independentes e reutilizáveis, aplicando princípios de *Single Responsibility* para garantir manutenibilidade e escalabilidade. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
-
-<br>
-
-| Projeto | Descrição Técnica | Acesso |
 | :--- | :--- | :---: |
 | **Auditoria de Recursos** | Automação de balanços financeiros utilizando funções recursivas para consolidação de orçamentos e *decorators* para monitoramento de performance e auditoria de logs. | [Ver Repositório](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
 | **Engine de Auditoria de Dados** | Algoritmo especializado em *Data Cleaning* e validação estrutural, projetado para identificar anomalias e tratar inconsistências em grandes volumes de dados brutos. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
