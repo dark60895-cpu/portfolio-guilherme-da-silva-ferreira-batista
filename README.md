@@ -40,9 +40,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 ---
 
 ## 📂 Portfólio de Projetos
-
-### 🧠 Arquitetura de Software e Implementação Estruturada
-
 *Foco em escalabilidade, aplicação de padrões de projeto (Design Patterns) e conversão de lógica teórica em código funcional de alta performance.*
 
 | Projeto | Descrição Técnica | Acesso |
@@ -52,10 +49,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 | **Modularização de Sistemas** | Estruturação de software baseada em componentes independentes e reutilizáveis, aplicando princípios de *Single Responsibility* para garantir manutenibilidade e escalabilidade. | [Ver Repositório](https://github.com/dark60895-cpu/Portifolio-Guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modularização) |
 
 <br>
-
-### 📊 Inteligência de Dados, Auditoria e Simulação
-
-*Sistemas projetados para garantir a integridade de dados críticos, automação de processos financeiros e análise de variáveis físicas.*
 
 | Projeto | Descrição Técnica | Acesso |
 | :--- | :--- | :---: |
