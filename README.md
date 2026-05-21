@@ -56,7 +56,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 ## 🏗️ Estrutura do Repositório
 
-*Organização sistemática para facilitar a navegação e o entendimento técnico dos módulos:*
 
 ```
 root/
