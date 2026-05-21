@@ -40,7 +40,6 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 ---
 
 ## 📂 Portfólio de Projetos
-*Foco em escalabilidade, aplicação de padrões de projeto (Design Patterns) e conversão de lógica teórica em código funcional de alta performance.*
 
 | Projeto | Descrição Técnica | Acesso |
 | :--- | :--- | :---: |
