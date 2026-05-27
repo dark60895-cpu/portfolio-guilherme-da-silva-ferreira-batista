@@ -49,7 +49,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 | Projeto Desenhando Emojis Com Dados | transforma números e estatísticas secas em ilustrações visuais criativas e interativas. Unindo design, arte e Data Storytelling, a iniciativa traduz informações complexas em gráficos e ícones intuitivos | [Ver projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-desenhando-emojis-com-dados)
 |Projeto Engenharia de Contexto e Logica Fisica | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes |[Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main)
 | Projeto Engenharia De Soluções Logicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas)
-| Projeto-Traduzindo Logica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas)
+| Projeto Traduzindo Logica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas)
 
 ---
 
