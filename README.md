@@ -30,6 +30,10 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+<!-- Ferramentas de Desenvolvimento e Design -->
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+</div>
 
 ### Ferramentas & Gestão
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /><img src="https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" /><img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" /><img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /><img src="https://img.shields.io/badge/Access-A4373C?style=for-the-badge&logo=microsoft-access&logoColor=white" /><img src="https://img.shields.io/badge/OneNote-7719AA?style=for-the-badge&logo=microsoft-onenote&logoColor=white" />
