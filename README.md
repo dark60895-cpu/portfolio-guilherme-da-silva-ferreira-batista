@@ -30,7 +30,7 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Power Point]([Uploading image.png(https://www.google.com/imgres?q=Power%20point%20img%20shield%20logo&imgurl=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F1200%2Fms-powerpoint--v1.jpg&imgrefurl=https%3A%2F%2Ficons8.com%2Ficon%2F81726%2Fmicrosoft-powerpoint&docid=XkLKPys2TyHxaM&tbnid=SYW1LvgmC0EOzM&vet=12ahUKEwiWkejWgdqUAxWGqJUCHU8jAN4QnPAOegQIeRAB..i&w=1200&h=1200&hcb=2&ved=2ahUKEwiWkejWgdqUAxWGqJUCHU8jAN4QnPAOegQIeRAB)
+
 
 ### Ferramentas & Gestão
 
