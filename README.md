@@ -1,4 +1,4 @@
-<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/1a85f862-b732-48b5-8ecd-6423fcc2245e" /># Guilherme da Silva Ferreira Batista
+# Guilherme da Silva Ferreira Batista
 
 > **Estudante de Análise e Desenvolvimento de Sistemas | Especialista em Operações Logísticas & Administrativas**
 
