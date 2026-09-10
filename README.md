@@ -1,24 +1,20 @@
 # Guilherme Da Silva Ferreira Batista
 
-Estudante de Análise e Desenvolvimento de Sistemas
+> **Estudante de Análise e Desenvolvimento de Sistemas**
 
 ---
 
-## Dados Pessoais
+## 📫 Contato & Redes Sociais
 
-- 📧 guilhermesilva123159@gmail.com
-- 🔗 [linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
-- 💻 [github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
 
----
-
-## Formação
-
-**Análise e Desenvolvimento de Sistemas (Tecnólogo)** — UNICID, Campus Tatuapé — *Cursando*
+📱 (11) 93225-3037
 
 ---
 
-## Resumo
+## 👨‍💻 Sobre
 
 Sou estudante de Análise e Desenvolvimento de Sistemas e sempre gostei de entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê dele funcionar daquele jeito. Por isso fui atrás de aprender mais sobre Python, Java e CSS, tentando sempre colocar em prática o que vou vendo na teoria.
 
@@ -28,44 +24,28 @@ Entre os colegas, sempre acabo sendo a pessoa que ajuda quando alguém trava em 
 
 Costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
 
-Meu objetivo é conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
+**Objetivo:** Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
+
+- **Hard Skills:** Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
+- **Soft Skills:** Curiosidade, Facilidade de aprendizado, Bom instinto, Paciência, Facilidade p/ ensinar
 
 ---
 
-## Hard Skills
+## 🎓 Formação
 
-- Python
-- Java
-- CSS
-- Análise de banco de dados
-- Inteligência Artificial
+**Análise e Desenvolvimento de Sistemas (Tecnólogo)** — UNICID, Campus Tatuapé — *Cursando*
 
----
+### Cursos Complementares
 
-## Soft Skills
-
-- Curiosidade
-- Facilidade de aprendizado
-- Bom instinto
-- Paciência
-- Facilidade p/ ensinar
+| Curso | Instituição | Conclusão |
+| :--- | :--- | :---: |
+| Introdução à Análise de Dados - Power BI | Fundação Bradesco | 08/09/2026 |
+| IA na Prática | Microsoft / Bradesco | 08/09/2026 |
+| IA para PMEs | Microsoft / Bradesco | 08/09/2026 |
 
 ---
 
-## Cursos
-
-**Introdução à Análise de Dados - Power BI**
-Fundação Bradesco — 08/09/2026
-
-**IA na Prática**
-Microsoft / Bradesco — 08/09/2026
-
-**IA para PMEs**
-Microsoft / Bradesco — 08/09/2026
-
----
-
-## Experiência / Storytelling
+## 💼 Experiência / Storytelling
 
 Minha primeira experiência profissional foi no Atacadão, onde trabalhei por 4 anos. Foi ali, no dia a dia da operação, que percebi o quanto a tecnologia importava pra mim — via como processos mal organizados travavam tudo, e isso despertou minha vontade de entender e criar soluções melhores.
 
@@ -82,11 +62,17 @@ Essa vontade virou desafio real logo no meu primeiro semestre de faculdade: junt
 
 ### Ferramentas de Desenvolvimento e Design
 
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /><img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ### Ferramentas & Gestão
 
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /><img src="https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" /><img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" /><img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /><img src="https://img.shields.io/badge/Access-A4373C?style=for-the-badge&logo=microsoft-access&logoColor=white" /><img src="https://img.shields.io/badge/OneNote-7719AA?style=for-the-badge&logo=microsoft-onenote&logoColor=white" />
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Word](https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
+![PowerPoint](https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
+![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)
+![Access](https://img.shields.io/badge/Access-A4373C?style=for-the-badge&logo=microsoft-access&logoColor=white)
+![OneNote](https://img.shields.io/badge/OneNote-7719AA?style=for-the-badge&logo=microsoft-onenote&logoColor=white)
 
 ---
 
@@ -95,12 +81,12 @@ Essa vontade virou desafio real logo no meu primeiro semestre de faculdade: junt
 | Projeto | Descrição Técnica | Acesso |
 | :--- | :--- | :---: |
 | Projeto Modularização | Criação de soluções estruturadas em blocos independentes para garantir alta flexibilidade, reuso e fácil manutenção | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modulariza%C3%A7%C3%A3o) |
-| Projeto Sistema de Auditoria De Recursos | O Sistema de Auditoria de Recursos é uma plataforma projetada para monitorar, rastrear e analisar a alocação de ativos da empresa | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
+| Projeto Sistema de Auditoria De Recursos | Plataforma projetada para monitorar, rastrear e analisar a alocação de ativos da empresa | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
 | Projeto Algoritmo De Auditoria De Dados | Algoritmo em Python para auditoria automatizada de dados corporativos, focado na validação de estruturas financeiras complexas utilizando recursividade | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
-| Projeto Desenhando Emojis Com Dados | transforma números e estatísticas secas em ilustrações visuais criativas e interativas. Unindo design, arte e Data Storytelling, a iniciativa traduz informações complexas em gráficos e ícones intuitivos | [Ver projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-desenhando-emojis-com-dados) |
-| Projeto Engenharia de Contexto e Logica Fisica | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main) |
-| Projeto Engenharia De Soluções Logicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
-| Projeto Traduzindo Logica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| Projeto Desenhando Emojis Com Dados | Transforma números e estatísticas secas em ilustrações visuais criativas e interativas, unindo design, arte e Data Storytelling | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-desenhando-emojis-com-dados) |
+| Projeto Engenharia de Contexto e Lógica Física | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main) |
+| Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 
 ---
 
