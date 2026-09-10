@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 216 40% 5%;
+    --foreground: 220 40% 93%;
+
+    --card: 220 30% 8%;
+    --card-foreground: 220 40% 93%;
+
+    --popover: 220 30% 8%;
+    --popover-foreground: 220 40% 93%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 20% 14%;
+    --secondary-foreground: 220 40% 93%;
+
+    --muted: 220 20% 14%;
+    --muted-foreground: 222 20% 50%;
+
+    --accent: 142 71% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 14%;
+    --input: 220 20% 14%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+
+    /* Triage colors */
+    --triage-red: 0 72% 51%;
+    --triage-red-bg: 0 72% 51% / 0.1;
+    --triage-red-border: 0 72% 51% / 0.3;
+
+    --triage-orange: 38 92% 50%;
+    --triage-orange-bg: 38 92% 50% / 0.1;
+    --triage-orange-border: 38 92% 50% / 0.3;
+
+    --triage-yellow: 56 100% 41%;
+    --triage-yellow-bg: 56 100% 41% / 0.1;
+    --triage-yellow-border: 56 100% 41% / 0.3;
+
+    --triage-green: 142 71% 45%;
+    --triage-green-bg: 142 71% 45% / 0.1;
+    --triage-green-border: 142 71% 45% / 0.3;
+
+    --surface: 220 30% 8%;
+    --surface2: 220 25% 12%;
+
+    --sidebar-background: 220 30% 8%;
+    --sidebar-foreground: 220 40% 93%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 25% 12%;
+    --sidebar-accent-foreground: 220 40% 93%;
+    --sidebar-border: 220 20% 14%;
+    --sidebar-ring: 217 91% 60%;
+
+    --font-heading: 'Syne', sans-serif;
+    --font-body: 'Instrument Sans', sans-serif;
+    --font-mono: 'DM Mono', monospace;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
