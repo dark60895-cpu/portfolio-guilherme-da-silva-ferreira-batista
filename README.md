@@ -7,7 +7,6 @@ Estudante de Análise e Desenvolvimento de Sistemas
 ## Dados Pessoais
 
 - 📧 guilhermesilva123159@gmail.com
-- 📱 (11) 93225-3037
 - 🔗 [linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
 - 💻 [github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
 
