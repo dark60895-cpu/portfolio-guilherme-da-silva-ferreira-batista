@@ -1,44 +1,93 @@
-# Guilherme da Silva Ferreira Batista
+# Guilherme Da Silva Ferreira Batista
 
-> **Estudante de Análise e Desenvolvimento de Sistemas | Especialista em Operações Logísticas & Administrativas**
-
----
-
-## 📫 Contato & Redes Sociais
-
-[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dark60895@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/CV.pdf)
+Estudante de Análise e Desenvolvimento de Sistemas
 
 ---
 
-## 👨‍💻 Sobre
+## Dados Pessoais
 
-Atualmente cursando **Análise e Desenvolvimento de Sistemas**, busco aplicar o raciocínio lógico e a automação de processos em soluções de tecnologia de alto impacto.
+- 📧 guilhermesilva123159@gmail.com
+- 📱 (11) 93225-3037
+- 🔗 [linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
+- 💻 [github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
 
-Com quatro anos de experiência consolidada no setor logístico do **Atacadão (Grupo Carrefour)**, possuo expertise na gestão de fluxos complexos de entrada e saída, conferência técnica de estoque e suporte administrativo estratégico a canais de vendas digitais. Minha trajetória profissional me permitiu desenvolver uma forte capacidade analítica e rigor organizacional, competências que agora direciono para a arquitetura de software e engenharia de dados.
+---
 
-- **Habilidades Técnicas:** Python, JavaScript, SQL, Lógica de Programação, Gestão de Inventário, Pacote Office Avançado.
-- **Habilidades Socioemocionais:** Pensamento crítico, resolução de problemas estruturada, comunicação assertiva e resiliência operacional.
-- **Objetivo:** Transicionar para o setor tecnológico ou atuar em cargos administrativos estratégicos, contribuindo com precisão técnica e melhoria contínua.
+## Formação
+
+**Análise e Desenvolvimento de Sistemas (Tecnólogo)** — UNICID, Campus Tatuapé — *Cursando*
+
+---
+
+## Resumo
+
+Sou estudante de Análise e Desenvolvimento de Sistemas e sempre gostei de entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê dele funcionar daquele jeito. Por isso fui atrás de aprender mais sobre Python, Java e CSS, tentando sempre colocar em prática o que vou vendo na teoria.
+
+Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com temas como banco de dados e inteligência artificial, que são áreas que quero seguir estudando cada vez mais.
+
+Entre os colegas, sempre acabo sendo a pessoa que ajuda quando alguém trava em algum exercício ou não entendeu a matéria. Gosto de explicar com calma, do meu jeito, até a pessoa entender de verdade, e isso exige paciência, porque cada um aprende no seu tempo.
+
+Costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
+
+Meu objetivo é conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
+
+---
+
+## Hard Skills
+
+- Python
+- Java
+- CSS
+- Análise de banco de dados
+- Inteligência Artificial
+
+---
+
+## Soft Skills
+
+- Curiosidade
+- Facilidade de aprendizado
+- Bom instinto
+- Paciência
+- Facilidade p/ ensinar
+
+---
+
+## Cursos
+
+**Introdução à Análise de Dados - Power BI**
+Fundação Bradesco — 08/09/2026
+
+**IA na Prática**
+Microsoft / Bradesco — 08/09/2026
+
+**IA para PMEs**
+Microsoft / Bradesco — 08/09/2026
+
+---
+
+## Experiência / Storytelling
+
+Minha primeira experiência profissional foi no Atacadão, onde trabalhei por 4 anos. Foi ali, no dia a dia da operação, que percebi o quanto a tecnologia importava pra mim — via como processos mal organizados travavam tudo, e isso despertou minha vontade de entender e criar soluções melhores.
+
+Essa vontade virou desafio real logo no meu primeiro semestre de faculdade: junto com uma equipe de 8 pessoas, desenvolvi um sistema de triagem hospitalar. No começo achei que não ia conseguir — foram meses de trabalho pra tirar do papel algo que parecia simples, mas não era. Terminar aquele projeto me mostrou que consigo aprender rápido e entregar mesmo diante de algo desafiador.
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
 
 ### Programação & Lógica
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### Ferramentas de Desenvolvimento e Design
 
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /><img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</div>
 
 ### Ferramentas & Gestão
 
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /><img src="https://img.shields.io/badge/Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" /><img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" /><img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /><img src="https://img.shields.io/badge/Access-A4373C?style=for-the-badge&logo=microsoft-access&logoColor=white" /><img src="https://img.shields.io/badge/OneNote-7719AA?style=for-the-badge&logo=microsoft-onenote&logoColor=white" />
-</div>
 
 ---
 
@@ -46,18 +95,17 @@ Com quatro anos de experiência consolidada no setor logístico do **Atacadão (
 
 | Projeto | Descrição Técnica | Acesso |
 | :--- | :--- | :---: |
-| Projeto Modularização | Criação de soluções estruturadas em blocos independentes para garantir alta flexibilidade, reuso e fácil manutenção | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modulariza%C3%A7%C3%A3o)
-| Projeto Sistema de Auditoria De Recursos | O Sistema de Auditoria de Recursos é uma plataforma projetada para monitorar, rastrear e analisar a alocação de ativos da empresa | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos)
-|Projeto Algoritmo De Auditoria De Dados | Algoritmo em Python para auditoria automatizada de dados corporativos, focado na validação de estruturas financeiras complexas utilizando recursividade | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados)
-| Projeto Desenhando Emojis Com Dados | transforma números e estatísticas secas em ilustrações visuais criativas e interativas. Unindo design, arte e Data Storytelling, a iniciativa traduz informações complexas em gráficos e ícones intuitivos | [Ver projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-desenhando-emojis-com-dados)
-|Projeto Engenharia de Contexto e Logica Fisica | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes |[Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main)
-| Projeto Engenharia De Soluções Logicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas)
-| Projeto Traduzindo Logica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas)
+| Projeto Modularização | Criação de soluções estruturadas em blocos independentes para garantir alta flexibilidade, reuso e fácil manutenção | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modulariza%C3%A7%C3%A3o) |
+| Projeto Sistema de Auditoria De Recursos | O Sistema de Auditoria de Recursos é uma plataforma projetada para monitorar, rastrear e analisar a alocação de ativos da empresa | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
+| Projeto Algoritmo De Auditoria De Dados | Algoritmo em Python para auditoria automatizada de dados corporativos, focado na validação de estruturas financeiras complexas utilizando recursividade | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
+| Projeto Desenhando Emojis Com Dados | transforma números e estatísticas secas em ilustrações visuais criativas e interativas. Unindo design, arte e Data Storytelling, a iniciativa traduz informações complexas em gráficos e ícones intuitivos | [Ver projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-desenhando-emojis-com-dados) |
+| Projeto Engenharia de Contexto e Logica Fisica | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main) |
+| Projeto Engenharia De Soluções Logicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| Projeto Traduzindo Logica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 
 ---
 
 ## 🏗️ Estrutura do Repositório
-
 
 ```
 root/
@@ -70,7 +118,3 @@ root/
 ├── 📂  Projeto-engenharia-de-contexto-e-logica-fisica/ → Sistemas de navegação espacial e simulação de variáveis ambientais
 └── 📂  Projeto-desenhando-emojis-com-dados/           → Algoritmos de manipulação matricial para representação de dados visuais
 ```
-
----
-
-
