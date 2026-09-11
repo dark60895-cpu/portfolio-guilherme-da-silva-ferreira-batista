@@ -38,9 +38,9 @@ Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefir
 
 |      |
 | :--- |
-| Introdução à Análise de Dados - Power BI|
-| IA na Prática| |
-| IA para PMEs| |
+| Introdução à Análise de Dados - Power BI |
+| IA na Prática |
+| IA para PMEs |
 
 ---
 
@@ -59,7 +59,8 @@ Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do l
 ### Programação & Lógica
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Java](https://img.shields.io/badge/java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Ferramentas de Desenvolvimento e Design
 
@@ -98,8 +99,8 @@ root/
 ├── 📄  Documentação central, apresentações profissionais e currículo atualizado
 ├── 📂  Projeto-algoritmo-de-auditoria-de-dados/       → Scripts de integridade e tratamento de anomalias em bases de dados
 ├── 📂  Projeto-Sistema_de_auditoria_de_recursos/      → Engine financeira com recursividade e otimização de orçamentos
-├── 📂  Projeto-engenharia-de-solucoes-logicas/        → Framework para decomposição de problemas e arquitetura de decisão
-├── 📂  Projeto-modularizacao/                         → Aplicação prática de Clean Code e separação de interesses em módulos
+├── 📂  Projeto-engenharia-de-soluções-logicas/        → Framework para decomposição de problemas e arquitetura de decisão
+├── 📂  Projeto-Modularização/                         → Aplicação prática de Clean Code e separação de interesses em módulos
 ├── 📂  Projeto-traduzindo-logica-para-python/         → Portfólio de aplicações funcionais implementadas a partir de lógica abstrata
 ├── 📂  Projeto-engenharia-de-contexto-e-logica-fisica/ → Sistemas de navegação espacial e simulação de variáveis ambientais
 └── 📂  Projeto-desenhando-emojis-com-dados/           → Algoritmos de manipulação matricial para representação de dados visuais
