@@ -39,9 +39,9 @@ Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefir
 
 | Curso | Instituição | Conclusão |
 | :--- | :--- | :---: |
-| Introdução à Análise de Dados - Power BI | Fundação Bradesco | 08/09/2026 |
-| IA na Prática | Microsoft / Bradesco | 08/09/2026 |
-| IA para PMEs | Microsoft / Bradesco | 08/09/2026 |
+| Introdução à Análise de Dados - Power BI  |
+| IA na Prática | |
+| IA para PMEs | |
 
 ---
 
