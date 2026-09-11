@@ -4,16 +4,7 @@
 
 ---
 
-## 📫 Contato & Redes Sociais
-
-[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
-
----
-
-## 👨‍💻 Sobre
+## Sobre
 
 Sou estudante de Análise e Desenvolvimento de Sistemas e sempre gostei de entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê dele funcionar daquele jeito. Por isso fui atrás de aprender mais sobre Python, Java e CSS, tentando sempre colocar em prática o que vou vendo na teoria.
 
@@ -34,9 +25,7 @@ Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefir
 
 **Análise e Desenvolvimento de Sistemas (Tecnólogo)** — UNICID, Campus Tatuapé — *Cursando*
 
-
-
-### 📜 Certificações
+### Cursos e Certificações
 
 | Curso | Certificado |
 | :--- | :---: |
@@ -88,20 +77,13 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 | Projeto Engenharia de Contexto e Lógica Física | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
 | Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
-| Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final () | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
+| Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
 
 ---
 
-## 🏗️ Estrutura do Repositório
+## 📫 Contato & Redes Sociais
 
-```
-root/
-├── 📄  Documentação central, apresentações profissionais e currículo atualizado
-├── 📂  Projeto-algoritmo-de-auditoria-de-dados/       → Scripts de integridade e tratamento de anomalias em bases de dados
-├── 📂  Projeto-Sistema_de_auditoria_de_recursos/      → Engine financeira com recursividade e otimização de orçamentos
-├── 📂  Projeto-engenharia-de-soluções-logicas/        → Framework para decomposição de problemas e arquitetura de decisão
-├── 📂  Projeto-Modularização/                         → Aplicação prática de Clean Code e separação de interesses em módulos
-├── 📂  Projeto-traduzindo-logica-para-python/         → Portfólio de aplicações funcionais implementadas a partir de lógica abstrata
-├── 📂  Projeto-engenharia-de-contexto-e-logica-fisica/ → Sistemas de navegação espacial e simulação de variáveis ambientais
-└── 📂  Projeto-desenhando-emojis-com-dados/           → Algoritmos de manipulação matricial para representação de dados visuais
-```
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
