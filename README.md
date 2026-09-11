@@ -42,6 +42,14 @@ Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefir
 | IA na Prática |
 | IA para PMEs |
 
+### 📜 Certificações
+
+| Curso | Certificado |
+| :--- | :---: |
+| Introdução à Análise de Dados - Power BI | [Ver Certificado](#) |
+| IA na Prática | [Ver Certificado](#) |
+| IA para PMEs | [Ver Certificado](#) |
+
 ---
 
 ## 💼 Experiência
