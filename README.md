@@ -34,6 +34,13 @@ Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefir
 
 **Análise e Desenvolvimento de Sistemas (Tecnólogo)** — UNICID, Campus Tatuapé — *Cursando*
 
+### Cursos Complementares
+
+|      |
+| :--- |
+| Introdução à Análise de Dados - Power BI |
+| IA na Prática |
+| IA para PMEs |
 
 ### 📜 Certificações
 
