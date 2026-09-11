@@ -1,4 +1,3 @@
-
 # Guilherme Da Silva Ferreira Batista
 
 > **Estudante de Análise e Desenvolvimento de Sistemas**
@@ -8,6 +7,7 @@
 ## 📫 Contato & Redes Sociais
 
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
+[![Telefone](https://img.shields.io/badge/Telefone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+5511932253037)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
@@ -22,12 +22,12 @@ Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastan
 
 Entre os colegas, sempre acabo sendo a pessoa que ajuda quando alguém trava em algum exercício ou não entendeu a matéria. Gosto de explicar com calma, do meu jeito, até a pessoa entender de verdade, e isso exige paciência, porque cada um aprende no seu tempo.
 
-Costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
+Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
 
 **Objetivo:** Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
 
 - **Hard Skills:** Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
-- **Soft Skills:** Curiosidade, Facilidade de aprendizado, Bom instinto, Paciência, Facilidade p/ ensinar
+- **Soft Skills:** Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Facilidade p/ ensinar
 
 ---
 
@@ -45,11 +45,13 @@ Costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e s
 
 ---
 
-## 💼 Experiência / Storytelling
+## 💼 Experiência
 
-Minha primeira experiência profissional foi no Atacadão, onde trabalhei por 4 anos. Foi ali, no dia a dia da operação, que percebi o quanto a tecnologia importava pra mim — via como processos mal organizados travavam tudo, e isso despertou minha vontade de entender e criar soluções melhores.
+**Atacadão** — *4 anos*
+Atuação na operação do dia a dia, acompanhando processos internos e identificando pontos de melhoria, o que despertou o interesse por tecnologia e soluções mais eficientes.
 
-Essa vontade virou desafio real logo no meu primeiro semestre de faculdade: junto com uma equipe de 8 pessoas, desenvolvi um sistema de triagem hospitalar. No começo achei que não ia conseguir — foram meses de trabalho pra tirar do papel algo que parecia simples, mas não era. Terminar aquele projeto me mostrou que consigo aprender rápido e entregar mesmo diante de algo desafiador.
+**Sistema de Triagem Hospitalar** — *1º semestre da faculdade*
+Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final.
 
 ---
 
@@ -84,9 +86,9 @@ Essa vontade virou desafio real logo no meu primeiro semestre de faculdade: junt
 | Projeto Sistema de Auditoria De Recursos | Plataforma projetada para monitorar, rastrear e analisar a alocação de ativos da empresa | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
 | Projeto Algoritmo De Auditoria De Dados | Algoritmo em Python para auditoria automatizada de dados corporativos, focado na validação de estruturas financeiras complexas utilizando recursividade | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
 | Projeto Desenhando Emojis Com Dados | Transforma números e estatísticas secas em ilustrações visuais criativas e interativas, unindo design, arte e Data Storytelling | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-desenhando-emojis-com-dados) |
-| Projeto Engenharia de Contexto e Lógica Física | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main) |
+| Projeto Engenharia de Contexto e Lógica Física | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
 | Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
-| Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
+| Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 
 ---
 
