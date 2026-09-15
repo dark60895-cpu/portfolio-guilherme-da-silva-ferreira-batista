@@ -15,6 +15,7 @@ Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que ven
 Hard Skills: Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
 
 Soft Skills: Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Facilidade p/ ensinar
+
 ---
 
 ## 🎓 Formação
