@@ -1,23 +1,19 @@
 # Guilherme Da Silva Ferreira Batista
-## 📫 Contato & Redes Sociais
+
+> **Estudante de Análise e Desenvolvimento de Sistemas**
 
 ---
-[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
 
-## Perfil
+## Sobre
 
 Tenho interesse genuíno em entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê de funcionar daquele jeito. Por isso venho estudando Python, Java e CSS, sempre buscando colocar em prática o que aprendo na teoria. Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com banco de dados e inteligência artificial — áreas que quero seguir aprofundando.
 
 Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exercício; gosto de explicar com calma até a pessoa entender de verdade, e isso exige paciência, porque cada um aprende no seu tempo. Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
 
-**Objetivo:** Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
+Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
 
-- **Hard Skills:** Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
-- **Soft Skills:** Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Facilidade p/ ensinar
-
+Hard Skills: Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
+Soft Skills: Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Facilidade p/ ensinar
 ---
 
 ## 🎓 Formação
@@ -26,17 +22,18 @@ Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exer
 
 ### Cursos e Certificações
 
-- Introdução à Análise de Dados - Power BI
-- IA na Prática
-- IA para PMEs
+| Curso | Certificado |
+| :--- | :---: |
+| Introdução à Análise de Dados - Power BI | [Ver Certificado](#) |
+| IA na Prática | [Ver Certificado](#) |
+| IA para PMEs | [Ver Certificado](#) |
 
 ---
 
 ## 💼 Experiência
 
 **Atacadão** — *4 anos*
-
-Minha primeira experiência profissional foi no Atacadão, onde trabalhei por 4 anos. Foi ali, no dia a dia da operação, que percebi o quanto a tecnologia importava pra mim — via como processos mal organizados travavam tudo, e isso despertou minha vontade de entender e criar soluções melhores. Essa vontade virou desafio real logo no meu primeiro semestre de faculdade: junto com uma equipe de 8 pessoas, desenvolvi um sistema de triagem hospitalar. No começo achei que não ia conseguir — foram meses de trabalho pra tirar do papel algo que parecia simples, mas não era. Terminar aquele projeto me mostrou que consigo aprender rápido e entregar mesmo diante de algo desafiador.
+Atuação na operação do dia a dia, acompanhando processos internos e identificando pontos de melhoria, o que despertou o interesse por tecnologia e soluções mais eficientes.
 
 ---
 
@@ -77,3 +74,11 @@ Minha primeira experiência profissional foi no Atacadão, onde trabalhei por 4 
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
 
+---
+
+## 📫 Contato & Redes Sociais
+
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
