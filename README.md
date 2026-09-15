@@ -78,7 +78,11 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
 
-##
+---
+
+## 🏗 Estrutura do Repositório
+
+```
 portfolio/
 ├── README.md                    (perfil principal)
 ├── curriculo_guilherme.pdf
@@ -90,3 +94,4 @@ portfolio/
 ├── Projeto-engenharia-de-solucoes-logicas/README.md
 ├── Projeto-traduzindo-logica-para-python/README.md
 └── triage-trio-plus/README.md
+```
