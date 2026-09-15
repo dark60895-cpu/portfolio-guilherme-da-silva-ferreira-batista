@@ -4,7 +4,7 @@
 
 ---
 
-## Sobre
+##Perfil
 
 Tenho interesse genuíno em entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê de funcionar daquele jeito. Por isso venho estudando Python, Java e CSS, sempre buscando colocar em prática o que aprendo na teoria. Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com banco de dados e inteligência artificial — áreas que quero seguir aprofundando.
 
