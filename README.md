@@ -13,6 +13,7 @@ Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exer
 Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
 
 Hard Skills: Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
+
 Soft Skills: Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Facilidade p/ ensinar
 ---
 
