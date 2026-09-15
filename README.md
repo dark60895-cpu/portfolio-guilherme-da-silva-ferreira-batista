@@ -77,3 +77,16 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 | Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
+
+##
+portfolio/
+├── README.md                    (perfil principal)
+├── curriculo_guilherme.pdf
+├── Projeto-Modularizacao/README.md
+├── Projeto-Sistema_de_auditoria_de_recursos/README.md
+├── Projeto-algoritmo-de-auditoria-de-dados/README.md
+├── Projeto-desenhando-emojis-com-dados/README.md
+├── Projeto-engenharia-de-contexto-e-logica-fisica/README.md
+├── Projeto-engenharia-de-solucoes-logicas/README.md
+├── Projeto-traduzindo-logica-para-python/README.md
+└── triage-trio-plus/README.md
