@@ -1,5 +1,4 @@
 # Guilherme Da Silva Ferreira Batista
----
 ## 📫 Contato & Redes Sociais
 
 **Telefone:** (11) 93225-3037
