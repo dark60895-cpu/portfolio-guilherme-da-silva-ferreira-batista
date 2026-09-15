@@ -1,7 +1,4 @@
 # Guilherme Da Silva Ferreira Batista
-
-> **Estudante de Análise e Desenvolvimento de Sistemas**
-
 ---
 ## 📫 Contato & Redes Sociais
 
