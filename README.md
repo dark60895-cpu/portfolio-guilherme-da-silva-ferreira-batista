@@ -2,9 +2,13 @@
 
 > **Estudante de Análise e Desenvolvimento de Sistemas**
 
+## 📫 Contato & Redes Sociais
+
+[E-mail](mailto:guilhermesilva123159@gmail.com) [LinkedIn](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5) [GitHub](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista) [Currículo](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
+
 ---
 
-##Perfil
+## Perfil
 
 Tenho interesse genuíno em entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê de funcionar daquele jeito. Por isso venho estudando Python, Java e CSS, sempre buscando colocar em prática o que aprendo na teoria. Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com banco de dados e inteligência artificial — áreas que quero seguir aprofundando.
 
@@ -24,11 +28,9 @@ Soft Skills: Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Fac
 
 ### Cursos e Certificações
 
-| Curso | Certificado |
-| :--- | :---: |
-| Introdução à Análise de Dados - Power BI | [Ver Certificado](#) |
-| IA na Prática | [Ver Certificado](#) |
-| IA para PMEs | [Ver Certificado](#) |
+- Introdução à Análise de Dados - Power BI
+- IA na Prática
+- IA para PMEs
 
 ---
 
@@ -75,12 +77,3 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 | Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
-
----
-
-## 📫 Contato & Redes Sociais
-
-[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/curriculo_guilherme.pdf)
