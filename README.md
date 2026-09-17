@@ -19,7 +19,7 @@ Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exer
 
 Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
 
-### 💪 Hard Skills
+### Hard Skills
 
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -27,7 +27,7 @@ Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que ven
 ![Banco de Dados](https://img.shields.io/badge/Análise_de_Banco_de_Dados-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![IA](https://img.shields.io/badge/Inteligência_Artificial-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
 
-### 🧠 Soft Skills
+### Soft Skills
 
 ![Curiosidade](https://img.shields.io/badge/Curiosidade-6A5ACD?style=for-the-badge)
 ![Aprendizado](https://img.shields.io/badge/Facilidade_de_Aprendizado-20B2AA?style=for-the-badge)
