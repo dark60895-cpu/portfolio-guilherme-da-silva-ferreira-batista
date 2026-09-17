@@ -1,11 +1,13 @@
 # Guilherme Da Silva Ferreira Batista
 
+> **Estudante de Análise e Desenvolvimento de Sistemas**
+
 ### 📫 Contato & Redes Sociais
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilhermesilva123159@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista)
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/CV/%20curriculo_guilherme_da_silva.pdf)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/CV/curriculo_guilherme_da_silva.pdf)
 
 ---
 
@@ -82,6 +84,7 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 
 | Projeto | Descrição Técnica | Acesso |
 | :--- | :--- | :---: |
+| Bot IA WhatsApp | Bot de atendimento automatizado para WhatsApp, integrando Inteligência Artificial para responder e interagir com usuários de forma automática | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Boot_IA-Whatsapp) |
 | Projeto Modularização | Criação de soluções estruturadas em blocos independentes para garantir alta flexibilidade, reuso e fácil manutenção | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Modulariza%C3%A7%C3%A3o) |
 | Projeto Sistema de Auditoria De Recursos | Plataforma projetada para monitorar, rastrear e analisar a alocação de ativos da empresa | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-Sistema_de_auditoria_de_recursos) |
 | Projeto Algoritmo De Auditoria De Dados | Algoritmo em Python para auditoria automatizada de dados corporativos, focado na validação de estruturas financeiras complexas utilizando recursividade | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-algoritmo-de-auditoria-de-dados) |
