@@ -19,9 +19,21 @@ Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exer
 
 Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
 
-Hard Skills: Python, Java, CSS, Análise de Banco de Dados, Inteligência Artificial
+### 💪 Hard Skills
 
-Soft Skills: Curiosidade, Facilidade de aprendizado, Autodidata, Paciência, Facilidade p/ ensinar
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Banco de Dados](https://img.shields.io/badge/Análise_de_Banco_de_Dados-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![IA](https://img.shields.io/badge/Inteligência_Artificial-FF6F00?style=for-the-badge&logo=openai&logoColor=white)
+
+### 🧠 Soft Skills
+
+![Curiosidade](https://img.shields.io/badge/Curiosidade-6A5ACD?style=for-the-badge)
+![Aprendizado](https://img.shields.io/badge/Facilidade_de_Aprendizado-20B2AA?style=for-the-badge)
+![Autodidata](https://img.shields.io/badge/Autodidata-DC143C?style=for-the-badge)
+![Paciência](https://img.shields.io/badge/Paciência-228B22?style=for-the-badge)
+![Ensinar](https://img.shields.io/badge/Facilidade_p/_Ensinar-FF8C00?style=for-the-badge)
 
 ---
 
