@@ -87,14 +87,16 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 
 ```
 portfolio/
-├── README.md                    (perfil principal)
-├── curriculo_guilherme.pdf
-├── Projeto-Modularizacao/README.md
+├── Boot_IA-Whatsapp/
+├── CV/
+│   └── curriculo_guilherme_da_silva.pdf
+├── Projeto-Modularização/README.md
 ├── Projeto-Sistema_de_auditoria_de_recursos/README.md
 ├── Projeto-algoritmo-de-auditoria-de-dados/README.md
 ├── Projeto-desenhando-emojis-com-dados/README.md
 ├── Projeto-engenharia-de-contexto-e-logica-fisica/README.md
-├── Projeto-engenharia-de-solucoes-logicas/README.md
+├── Projeto-engenharia-de-soluções-logicas/README.md
 ├── Projeto-traduzindo-logica-para-python/README.md
-└── triage-trio-plus/README.md
+├── triage-trio-plus/README.md
+└── README.md                    (perfil principal)
 ```
