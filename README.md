@@ -1,7 +1,5 @@
 # Guilherme Da Silva Ferreira Batista
 
-> **Estudante de Análise e Desenvolvimento de Sistemas**
-
 ### 📫 Contato & Redes Sociais
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/guilherme-da-silva-ferreira-batista-6294513b5)
@@ -13,11 +11,7 @@
 
 ## Perfil
 
-Tenho interesse genuíno em entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê de funcionar daquele jeito. Por isso venho estudando Python, Java e CSS, sempre buscando colocar em prática o que aprendo na teoria. Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com banco de dados e inteligência artificial — áreas que quero seguir aprofundando.
-
-Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exercício; gosto de explicar com calma até a pessoa entender de verdade, e isso exige paciência, porque cada um aprende no seu tempo. Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
-
-Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
+Tenho interesse genuíno em entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê de funcionar daquele jeito. Por isso venho estudando Python, Java e CSS, sempre buscando colocar em prática o que aprendo na teoria. Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com banco de dados e inteligência artificial — áreas que quero seguir aprofundando. Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exercício; gosto de explicar com calma até a pessoa entender de verdade, e isso exige paciência, porque cada um aprende no seu tempo. Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois. Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
 
 ### Hard Skills
 
