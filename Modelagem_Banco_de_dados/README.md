@@ -1,15 +1,3 @@
-# Modelagem Conceitual de Banco de Dados para Custos de Produção e Vendas — Contrasti Bolsas e Acessórios Ltda
-
-## Introdução
-
-Este trabalho apresenta a modelagem conceitual de um sistema de gestão de informações para a **Contrasti Bolsas e Acessórios Ltda**, indústria e comércio de bolsas e acessórios de couro localizada em São Paulo/SP. O problema identificado é a ausência de um sistema integrado que conecte estoque de insumos, ficha técnica/custo de produção, ordens de produção, vendas multicanal e financeiro — hoje esses processos são conduzidos de forma manual e descentralizada (planilhas soltas, controle informal de estoque e cálculo não padronizado de custo/preço).
-
-O **objetivo geral** é levantar os requisitos reais da organização por meio de pesquisa de campo e traduzi-los em um modelo conceitual de dados (entidades, atributos, relacionamentos e cardinalidades) representado por um Diagrama Entidade-Relacionamento (DER) na notação de Chen.
-
-Como **delimitação**, o grupo modelou dois níveis de detalhe: (1) um modelo completo de 21 entidades, cobrindo todos os processos mapeados no levantamento de requisitos (cadastros, estoque/compras, produção, vendas/faturamento, expedição e financeiro); e (2) um recorte simplificado de 9 entidades (Seção 9), focado apenas no fluxo de custo de produção e vendas — do fornecedor de insumos até o pedido faturado ao cliente —, entregue como versão alternativa/reduzida no mesmo padrão de notação. Esta entrega não cobre implementação física do banco de dados (modelo lógico/físico), o que fica para etapas futuras do projeto.
-
----
-
 ## Metadados
 
 | Nome | RGM |
@@ -42,10 +30,6 @@ Como **delimitação**, o grupo modelou dois níveis de detalhe: (1) um modelo c
 6. **Vendas, pedidos e faturamento** — pedido multicanal, forma de pagamento, comissão e emissão de NF-e/NFC-e.
 7. **Expedição e pós-venda** — picking & packing, integração logística e garantia (RMA).
 8. **Gestão financeira e relatórios gerenciais** — Contas a Pagar/Receber automáticos e indicadores (Curva ABC, DRE, fluxo de caixa).
-
-**Fluxogramas:**
-
-> ⚠️ **Pendente:** o esqueleto da atividade pede a representação visual de pelo menos os processos-chave (imagens anexadas). O grupo ainda precisa desenhar e anexar aqui o fluxograma de, no mínimo, os processos 3 (Ficha técnica e cadastro de produtos), 5 (Ordem de produção) e 6 (Vendas, pedidos e faturamento), que são os que sustentam o DER das Seções 7 e 9. Sugestão de caminho: `docs/fluxogramas/fluxograma-<processo>.png`, referenciado aqui com `![Fluxograma de <processo>](docs/fluxogramas/fluxograma-<processo>.png)`.
 
 ---
 
@@ -374,9 +358,7 @@ Como **delimitação**, o grupo modelou dois níveis de detalhe: (1) um modelo c
 
 ## 7. Diagrama Entidade-Relacionamento (DER)
 
-**Arquivos anexados:** `docs/der/der-completo-21-entidades.png` (e `docs/der/der-completo-21-entidades.svg`, versão vetorial da mesma imagem) — gerados a partir do modelo desta Seção 6.
-
-![DER completo — modelo de 21 entidades](docs/der/der-completo-21-entidades.png)
+**Arquivos anexados:** `DER_Bolsas_Couro.png` (e `DER_Bolsas_Couro.svg`, versão vetorial da mesma imagem) — gerados a partir do modelo desta Seção 6.
 
 O diagrama segue a notação de Chen usada pelo BrModeloWeb: entidades como **retângulos**, relacionamentos como **losangos** rotulados com o verbo, atributos como **elipses** presas à entidade (ou ao relacionamento, no único caso de atributo de relacionamento do modelo — `quantidade_consumida` em "consumido em"), com a **chave primária sublinhada**. Entidade fraca (ENDERECO_CLIENTE) e seu relacionamento identificador ("possui") aparecem com borda dupla. As cardinalidades (mín,máx) ficam junto de cada ponta da linha, exatamente como na tabela da Seção 6.
 
@@ -400,9 +382,7 @@ O modelo já nasce pensando em escalabilidade: entidades como USUARIO e ETAPA_PR
 
 > Recorte simplificado do modelo completo de 21 entidades (Seções 5 a 7), cobrindo apenas o fluxo de custo de produção e vendas: do fornecedor de insumos até o pedido faturado ao cliente. Preparado como entrega alternativa/reduzida, no mesmo padrão de notação (Chen) e cardinalidade (mín,máx) do modelo completo.
 
-**Arquivos anexados:** `docs/dicionario-dados/dicionario-9-entidades.html` e `docs/dicionario-dados/dicionario-9-entidades.pdf` (dicionário de dados, mesmo conteúdo em dois formatos) e `docs/der/der-9-entidades.png` (diagrama, com título e legenda da notação).
-
-![DER — recorte de 9 entidades (custos de produção e vendas)](docs/der/der-9-entidades.png)
+**Arquivos anexados:** `Dicionario_Dados_9_Entidades.html` e `Dicionario_Dados_9_Entidades.pdf` (dicionário de dados, mesmo conteúdo em dois formatos) e `DER_Diagrama_9_Entidades.pdf` (diagrama).
 
 ### 9.1 Entidades e relacionamentos
 
@@ -427,9 +407,9 @@ O modelo já nasce pensando em escalabilidade: entidades como USUARIO e ETAPA_PR
 | Atributo | Descrição | Regra de negócio associada |
 |---|---|---|
 | id_fornecedor | Identificador | Chave primária, gerada pelo sistema. É única e nunca é reutilizada. |
-| razao_social | Nome empresarial | Obrigatório. É o nome que aparece nas compras e no histórico de avaliação do fornecedor. |
+| razao social. | Nome empresarial | Obrigatório. É o nome que aparece nas compras e no histórico de avaliação do fornecedor. |
 | cnpj | CNPJ | Obrigatório e único: não pode haver dois fornecedores com o mesmo CNPJ. Dado protegido pela LGPD. |
-| inscricao_estadual | Registro estadual | Opcional. Preenchida quando o fornecedor possui inscrição estadual. |
+| inscricao estadual | Registro estadual | Opcional. Preenchida quando o fornecedor possui inscrição estadual. |
 | email | E-mail comercial | Opcional. Canal de contato comercial com o fornecedor. |
 | telefone | Telefone | Opcional. Contato direto com o fornecedor. |
 | contato_vendedor | Vendedor de referência | Nome da pessoa que atende a empresa dentro do fornecedor. |
@@ -487,7 +467,7 @@ O modelo já nasce pensando em escalabilidade: entidades como USUARIO e ETAPA_PR
 | telefone | Telefone/WhatsApp | Contato principal do cliente. |
 | nome_comprador_responsavel | Contato de compras | Pessoa que faz os pedidos em nome do cliente, principalmente no atacado. |
 | perfil_cliente | Tipo de cliente | Aceita: Varejo Final ou Atacado/Lojista. Define a régua de preço aplicada e se a inscrição estadual é obrigatória. |
-| limite_credito | Teto de compra a prazo | Valor em R$ (referência observada: R$ 10.000,00). Vale só para pedidos em boleto: o valor do pedido não pode ultrapassar o limite. |
+| limite credito | Teto de compra a prazo | Valor em R$ (referência observada: R$ 10.000,00). Vale só para pedidos em boleto: o valor do pedido não pode ultrapassar o limite. |
 | status_aprovacao_financeira | Situação do crédito | Aceita: Pendente, Aprovado ou Reprovado. Todo novo lojista começa Pendente e só pode comprar em boleto depois de Aprovado. |
 
 #### PEDIDO
@@ -527,37 +507,6 @@ Este recorte de 9 entidades foi produzido em uma sessão de trabalho separada, a
 | **Trechos rejeitados ou corrigidos** | A primeira versão do diagrama usava notação "pé-de-galinha" por preferência da IA (legibilidade); o professor pediu explicitamente a notação de Chen/BrModeloWeb, então o diagrama foi refeito do zero. Nessa reconstrução, a IA também corrigiu um erro de fidelidade conceitual da primeira versão: atributos de chave estrangeira (ex.: `cod_cliente` em ENDERECO_CLIENTE) tinham sido deixados como atributos visíveis, o que não é correto em um diagrama conceitual puro — eles foram removidos das entidades e passaram a ser representados apenas pela linha do relacionamento. |
 | **Justificativa da escolha final** | O grupo manteve a estrutura de 21 entidades por ela cobrir, de forma rastreável, as 8 seções do questionário original sem inventar processos não mencionados. |
 | **Reflexão crítica** | O modelo reflete fielmente o texto do questionário, mas não substitui a pesquisa de campo exigida pela atividade — regras de negócio reais da organização escolhida podem divergir do que está aqui (valores de limite de crédito, percentuais de comissão etc. foram tratados como exemplos/referências, não como regras fixas). O grupo deve validar cada regra de negócio da Seção 4 com a organização real antes de assumi-las como definitivas. |
-
-**5ª etapa — revisão final do README para publicação no GitHub:**
-
-| Item | Registro |
-|---|---|
-| **Ferramenta e etapa** | Claude (Sonnet 5, Anthropic) — usado para revisar o README já pronto (Seções 1 a 9) contra o esqueleto oficial da Entrega 1 antes da publicação no repositório, e para adicionar um título de capa (com título e legenda) ao PNG do DER de 9 entidades. |
-| **Motivação** | Conferir, antes da entrega, se todas as seções obrigatórias do esqueleto estavam presentes e se os diagramas ficariam legíveis/visíveis no GitHub. |
-| **Prompt(s) utilizados** | "veja pra mim se ficou bom pra colocar no git hub"; "certo faça isso pra mim" (referindo-se às seções apontadas como faltantes: Título, Introdução, Conclusão, Referências Bibliográficas). |
-| **Resposta recebida** | A IA apontou que faltavam as seções Título, Introdução, Fluxogramas (Seção 2), Conclusão e Referências Bibliográficas, que as imagens do DER estavam citadas só como nome de arquivo (sem sintaxe Markdown de imagem, o que impede a renderização no GitHub), e três atributos do dicionário da Seção 9.3 sem underscore (`razao social.`, `inscricao estadual`, `limite credito`). Em seguida, adicionou o título e a Introdução no topo, a Conclusão e as Referências Bibliográficas ao final, corrigiu os três atributos, embutiu as imagens do DER com `![]()` e sugeriu uma estrutura de pastas (`docs/der/`, `docs/dicionario-dados/`, `docs/fluxogramas/`) para organizar os anexos no repositório. |
-| **Fontes consultadas e verificadas** | Nenhuma fonte externa — a revisão comparou o README apenas contra o arquivo de esqueleto (enunciado da atividade) fornecido pelo próprio grupo/professor. |
-| **Trechos rejeitados ou corrigidos** | Nenhum trecho da IA foi rejeitado; a seção de Fluxogramas foi deixada como pendência explícita (⚠️) em vez de a IA inventar um fluxograma sem base no processo real observado na visita de campo. |
-| **Justificativa da escolha final** | O grupo optou por aceitar as adições porque são seções estruturais exigidas pelo esqueleto e não alteram nenhum dado, entidade, atributo ou regra de negócio já levantados nas Seções 1 a 9. |
-| **Reflexão crítica** | A Introdução e a Conclusão geradas pela IA resumem o que já estava disperso no restante do documento; ainda assim, o grupo deve ler e, se necessário, ajustar o tom/wording para refletir a própria voz antes da entrega final. Os fluxogramas continuam sendo responsabilidade do grupo, já que exigem conhecimento do processo real observado em campo, que a IA não tem. |
-
----
-
-## Conclusão
-
-O levantamento de requisitos junto à Contrasti Bolsas e Acessórios confirmou a hipótese inicial do grupo: os processos de estoque, custo de produção e vendas são conduzidos de forma manual e descentralizada, sem rastreabilidade de lote, sem regra formal de crédito e sem cálculo padronizado de ficha técnica. O modelo conceitual proposto — 21 entidades no modelo completo (Seções 5 a 8) e um recorte de 9 entidades focado em custo e vendas (Seção 9) — organiza esses processos em uma estrutura de dados única, com entidades fracas e associativas usadas exatamente onde a regra de negócio exige (rastreabilidade de lote, ficha técnica com atributos próprios, itens de pedido com preço congelado).
-
-Como **principais contribuições**, o trabalho traduz um levantamento em prosa/tabela para um modelo formal e verificável, evidencia onde estão os valores derivados (custo de matéria-prima, preço de tabela, valor total do pedido) para que não sejam tratados como dado primário no modelo lógico, e documenta de forma explícita as regras que a notação de Chen não consegue expressar estruturalmente (ex.: obrigatoriedade condicional de inscrição estadual), deixando-as marcadas para virarem constraints na próxima etapa.
-
-Como **aprendizados**, o grupo identificou a importância de reificar relacionamentos N:N com atributos próprios em entidades associativas desde a etapa conceitual, e de simplificar deliberadamente pontos que, embora simplificados, precisam ficar documentados como tal (ex.: `custo_unitario` sem histórico por lote no recorte de 9 entidades).
-
-Como **trabalhos futuros**, ficam pendentes: (1) a produção dos fluxogramas dos processos-chave, ainda não anexados (Seção 2); (2) a validação de campo das regras de negócio tratadas como exemplo/referência (limite de crédito, percentuais de comissão, prazos de parcelamento); e (3) a evolução deste modelo conceitual para os modelos lógico e físico nas próximas entregas da disciplina, incluindo a definição de tipos de dado, constraints e índices.
-
----
-
-## Referências Bibliográficas
-
-Não foram utilizadas fontes bibliográficas externas. O modelo conceitual foi derivado exclusivamente do levantamento de requisitos obtido por pesquisa de campo (visita e entrevista) junto à Contrasti Bolsas e Acessórios Ltda (contato: Osmar Lingiardi), conforme registrado na Seção 1. O uso de ferramenta de Inteligência Artificial como apoio à modelagem e à redação está documentado e referenciado na Seção 10.
 
 ---
 
