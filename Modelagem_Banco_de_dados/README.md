@@ -10,21 +10,7 @@
 | Matheus Montagner | 47209470 |
 | Vinicius Marques de Melo | 47213426 |
 
----
 
-## Sumário
-1. [Caracterização da Organização](#1-caracterização-da-organização)
-2. [Processos de Negócio](#2-processos-de-negócio)
-3. [Requisitos do Sistema](#3-requisitos-do-sistema)
-4. [Regras de Negócio](#4-regras-de-negócio)
-5. [Dicionário de Dados Conceitual (Preliminar)](#5-dicionário-de-dados-conceitual-preliminar)
-6. [Modelagem Conceitual](#6-modelagem-conceitual-entidades-atributos-relacionamentos)
-7. [Diagrama Entidade-Relacionamento (DER)](#7-diagrama-entidade-relacionamento-der)
-8. [Justificativa Técnica](#8-justificativa-técnica)
-9. [Anexo — Modelo Conceitual Simplificado (9 Entidades)](#9-anexo--modelo-conceitual-simplificado-9-entidades)
-10. [Uso de Inteligência Artificial](#10-uso-de-inteligência-artificial)
-
----
 
 ## 1. Caracterização da Organização
 
