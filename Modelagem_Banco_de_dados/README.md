@@ -171,105 +171,105 @@ Principais processos mapeados (extraídos do levantamento de requisitos, um por 
 
 ## 9. Anexo — Modelo Conceitual Simplificado (9 Entidades)
 
-* **Escopo:** `FORNECEDOR`, `INSUMO`, `FICHA_TECNICA`, `PRODUTO`, `BOLSA`, `ACESSORIO`, `ITEM_PEDIDO`, `PEDIDO` e `CLIENTE`[cite: 4].
+* **Escopo:** `FORNECEDOR`, `INSUMO`, `FICHA_TECNICA`, `PRODUTO`, `BOLSA`, `ACESSORIO`, `ITEM_PEDIDO`, `PEDIDO` e `CLIENTE`.
 
 ### 9.1 Dicionário de Dados Conceitual (9 Entidades)
 
 #### FORNECEDOR
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_fornecedor` (PK)[cite: 4] | Identificador do fornecedor[cite: 4] | Chave primária gerada pelo sistema. É única e não pode ser reutilizada[cite: 4]. |
-| `razao_social`[cite: 4] | Nome empresarial[cite: 4] | Obrigatório. Nome usado em compras e no histórico de avaliação do fornecedor[cite: 4]. |
-| `cnpj`[cite: 4] | Cadastro Nacional de Pessoa Jurídica[cite: 4] | Obrigatório e único. Não pode haver dois fornecedores com o mesmo CNPJ. Dado protegido pela LGPD[cite: 4]. |
-| `inscricao_estadual`[cite: 4] | Registro estadual[cite: 4] | Opcional. Preenchido quando o fornecedor possuir inscrição estadual[cite: 4]. |
-| `email`[cite: 4] | E-mail comercial[cite: 4] | Opcional. Canal de contato comercial[cite: 4]. |
-| `telefone`[cite: 4] | Telefone[cite: 4] | Opcional. Contato direto com o fornecedor[cite: 4]. |
-| `contato_vendedor`[cite: 4] | Vendedor de referência[cite: 4] | Pessoa responsável pelo atendimento comercial à empresa[cite: 4]. |
-| `categoria_insumo`[cite: 4] | Tipo de insumo vendido[cite: 4] | Obrigatório. Aceita: Curtume/Couro, Ferragens/Fivelas, Zíperes/Aviamentos ou Embalagens/Caixas[cite: 4]. |
-| `prazo_medio_entrega_dias`[cite: 4] | Prazo de entrega[cite: 4] | Número inteiro maior que zero. Orienta o planejamento de compra dos insumos[cite: 4]. |
+| `id_fornecedor` (PK) | Identificador do fornecedor | Chave primária gerada pelo sistema. É única e não pode ser reutilizada. |
+| `razao_social` | Nome empresarial | Obrigatório. Nome usado em compras e no histórico de avaliação do fornecedor. |
+| `cnpj` | Cadastro Nacional de Pessoa Jurídica | Obrigatório e único. Não pode haver dois fornecedores com o mesmo CNPJ. Dado protegido pela LGPD. |
+| `inscricao_estadual` | Registro estadual | Opcional. Preenchido quando o fornecedor possuir inscrição estadual. |
+| `email` | E-mail comercial | Opcional. Canal de contato comercial. |
+| `telefone` | Telefone | Opcional. Contato direto com o fornecedor. |
+| `contato_vendedor` | Vendedor de referência | Pessoa responsável pelo atendimento comercial à empresa. |
+| `categoria_insumo` | Tipo de insumo vendido | Obrigatório. Aceita: Curtume/Couro, Ferragens/Fivelas, Zíperes/Aviamentos ou Embalagens/Caixas. |
+| `prazo_medio_entrega_dias` | Prazo de entrega | Número inteiro maior que zero. Orienta o planejamento de compra dos insumos. |
 
 #### INSUMO
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_insumo` (PK)[cite: 4] | Identificador do insumo[cite: 4] | Chave primária gerada pelo sistema[cite: 4]. |
-| `nome_insumo`[cite: 4] | Nome do material[cite: 4] | Obrigatório. Ex.: couro bovino, zíper, fivela ou forro[cite: 4]. |
-| `categoria_insumo`[cite: 4] | Grupo do material[cite: 4] | Deve usar as mesmas categorias cadastradas para fornecedor, permitindo identificar possíveis fornecedores[cite: 4]. |
-| `unidade_medida`[cite: 4] | Unidade de controle[cite: 4] | Obrigatória. Aceita: dm², m², unidade, metro, kg ou litro. Deve ser a mesma usada no estoque e na ficha técnica[cite: 4]. |
-| `estoque_minimo`[cite: 4] | Saldo mínimo[cite: 4] | Quando estoque_atual for menor ou igual a este valor, o sistema deve gerar alerta de recompra[cite: 4]. |
-| `estoque_atual`[cite: 4] | Saldo disponível[cite: 4] | Não pode ser negativo. Aumenta no recebimento de compras e diminui com o consumo produtivo[cite: 4]. |
-| `custo_unitario`[cite: 4] | Custo por unidade[cite: 4] | Deve ser maior que zero. É a referência para cálculo do custo de matéria-prima[cite: 4]. |
+| `id_insumo` (PK) | Identificador do insumo | Chave primária gerada pelo sistema. |
+| `nome_insumo` | Nome do material | Obrigatório. Ex.: couro bovino, zíper, fivela ou forro. |
+| `categoria_insumo` | Grupo do material | Deve usar as mesmas categorias cadastradas para fornecedor, permitindo identificar possíveis fornecedores. |
+| `unidade_medida` | Unidade de controle | Obrigatória. Aceita: dm², m², unidade, metro, kg ou litro. Deve ser a mesma usada no estoque e na ficha técnica. |
+| `estoque_minimo` | Saldo mínimo | Quando estoque_atual for menor ou igual a este valor, o sistema deve gerar alerta de recompra. |
+| `estoque_atual` | Saldo disponível | Não pode ser negativo. Aumenta no recebimento de compras e diminui com o consumo produtivo. |
+| `custo_unitario` | Custo por unidade | Deve ser maior que zero. É a referência para cálculo do custo de matéria-prima. |
 
-#### FICHA_TECNICA *(Entidade associativa)*[cite: 4]
+#### FICHA_TECNICA *(Entidade associativa)*
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_produto + id_insumo` (PK composta)[cite: 4] | Identificador da linha técnica[cite: 4] | Cada combinação de produto e insumo deve ser única. Um mesmo insumo não pode aparecer duas vezes na ficha do mesmo produto[cite: 4]. |
-| `quantidade_necessaria`[cite: 4] | Quantidade por peça[cite: 4] | Obrigatória e maior que zero. Deve usar a mesma unidade_medida definida no insumo[cite: 4]. |
-| `percentual_perda`[cite: 4] | Perda técnica de material[cite: 4] | Informado como fração entre 0 e 1 (ex.: 10% = 0,10). É aplicado no cálculo do custo do insumo[cite: 4]. |
+| `id_produto + id_insumo` (PK composta) | Identificador da linha técnica | Cada combinação de produto e insumo deve ser única. Um mesmo insumo não pode aparecer duas vezes na ficha do mesmo produto. |
+| `quantidade_necessaria` | Quantidade por peça | Obrigatória e maior que zero. Deve usar a mesma unidade_medida definida no insumo. |
+| `percentual_perda` | Perda técnica de material | Informado como fração entre 0 e 1 (ex.: 10% = 0,10). É aplicado no cálculo do custo do insumo. |
 
 #### PRODUTO
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_produto` (PK)[cite: 4] | Identificador do produto[cite: 4] | Chave primária gerada pelo sistema. É também a chave herdada pelos subtipos BOLSA e ACESSORIO[cite: 4]. |
-| `nome_modelo`[cite: 4] | Nome comercial do modelo[cite: 4] | Obrigatório. Ex.: Bolsa Tote[cite: 4]. |
-| `markup`[cite: 4] | Multiplicador de margem[cite: 4] | Obrigatório e maior que 1. Ex.: 2,5 indica preço de venda equivalente a 2,5 vezes o custo[cite: 4]. |
-| `custo_mao_obra`[cite: 4] | Mão de obra por peça[cite: 4] | Valor informado, não calculado. Inclui atividades como corte e costura[cite: 4]. |
-| `custo_materia_prima` (derivado)[cite: 4] | Custo dos materiais[cite: 4] | Não é digitado. Soma, para cada item da ficha, de quantidade_necessaria x (1 + percentual_perda) x custo_unitario[cite: 4]. |
-| `preco_tabela` (derivado)[cite: 4] | Preço de venda sugerido[cite: 4] | Não é digitado. Calculado por (custo_materia_prima + custo_mao_obra) x markup[cite: 4]. Deve ser recalculado quando seus componentes mudarem[cite: 4]. |
+| `id_produto` (PK) | Identificador do produto | Chave primária gerada pelo sistema. É também a chave herdada pelos subtipos BOLSA e ACESSORIO. |
+| `nome_modelo` | Nome comercial do modelo | Obrigatório. Ex.: Bolsa Tote. |
+| `markup` | Multiplicador de margem | Obrigatório e maior que 1. Ex.: 2,5 indica preço de venda equivalente a 2,5 vezes o custo. |
+| `custo_mao_obra` | Mão de obra por peça | Valor informado, não calculado. Inclui atividades como corte e costura. |
+| `custo_materia_prima` (derivado) | Custo dos materiais | Não é digitado. Soma, para cada item da ficha, de quantidade_necessaria x (1 + percentual_perda) x custo_unitario. |
+| `preco_tabela` (derivado) | Preço de venda sugerido | Não é digitado. Calculado por (custo_materia_prima + custo_mao_obra) x markup. Deve ser recalculado quando seus componentes mudarem. |
 
-#### BOLSA *(Especialização de PRODUTO)*[cite: 4]
+#### BOLSA *(Especialização de PRODUTO)*
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `tamanho`[cite: 4] | Dimensão da bolsa[cite: 4] | Obrigatório para produtos classificados como bolsa[cite: 4]. |
-| `cor`[cite: 4] | Cor da bolsa[cite: 4] | Obrigatória para bolsa[cite: 4]. |
-| `tipo_alca`[cite: 4] | Tipo de alça[cite: 4] | Obrigatório para bolsa[cite: 4]. |
-| `pecas_composicao` (multivalorado)[cite: 4] | Peças que formam a bolsa[cite: 4] | Deve possuir ao menos uma peça. Exemplos: tampa, frente, costa, fundo e orla[cite: 4]. |
+| `tamanho` | Dimensão da bolsa | Obrigatório para produtos classificados como bolsa. |
+| `cor` | Cor da bolsa | Obrigatória para bolsa. |
+| `tipo_alca` | Tipo de alça | Obrigatório para bolsa. |
+| `pecas_composicao` (multivalorado) | Peças que formam a bolsa | Deve possuir ao menos uma peça. Exemplos: tampa, frente, costa, fundo e orla. |
 
-#### ACESSORIO *(Especialização de PRODUTO)*[cite: 4]
+#### ACESSORIO *(Especialização de PRODUTO)*
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `tipo_peca`[cite: 4] | Tipo do acessório[cite: 4] | Obrigatório. Exemplos: cinto, carteira ou porta-cartões. Um acessório não pode possuir atributos exclusivos de bolsa[cite: 4]. |
+| `tipo_peca` | Tipo do acessório | Obrigatório. Exemplos: cinto, carteira ou porta-cartões. Um acessório não pode possuir atributos exclusivos de bolsa. |
 
 #### PEDIDO
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_pedido` (PK)[cite: 4] | Identificador do pedido[cite: 4] | Chave primária gerada pelo sistema[cite: 4]. |
-| `data_pedido`[cite: 4] | Data do registro[cite: 4] | Obrigatória. Registrada na criação do pedido[cite: 4]. |
-| `canal_venda`[cite: 4] | Origem da venda[cite: 4] | Aceita: Loja Física, E-commerce, WhatsApp ou Representante. Pode definir regras de comissão e faturamento[cite: 4]. |
-| `forma_pagamento`[cite: 4] | Meio de pagamento[cite: 4] | Aceita: PIX, Cartão ou Boleto. Boleto exige cliente aprovado e valor dentro do limite de crédito[cite: 4]. |
-| `condicao_parcelamento`[cite: 4] | Parcelas ou prazo[cite: 4] | Depende da forma de pagamento: PIX à vista; Cartão em parcelas; Boleto com prazos, como 30/60/90 dias[cite: 4]. |
-| `status_pedido`[cite: 4] | Situação comercial[cite: 4] | Exemplos: aberto, faturado, expedido ou cancelado[cite: 4]. |
-| `valor_total` (derivado)[cite: 4] | Total financeiro do pedido[cite: 4] | Não é digitado. Soma de quantidade x preco_unitario_praticado - desconto para todos os itens[cite: 4]. |
+| `id_pedido` (PK) | Identificador do pedido | Chave primária gerada pelo sistema. |
+| `data_pedido` | Data do registro | Obrigatória. Registrada na criação do pedido. |
+| `canal_venda` | Origem da venda | Aceita: Loja Física, E-commerce, WhatsApp ou Representante. Pode definir regras de comissão e faturamento. |
+| `forma_pagamento` | Meio de pagamento | Aceita: PIX, Cartão ou Boleto. Boleto exige cliente aprovado e valor dentro do limite de crédito. |
+| `condicao_parcelamento` | Parcelas ou prazo | Depende da forma de pagamento: PIX à vista; Cartão em parcelas; Boleto com prazos, como 30/60/90 dias. |
+| `status_pedido` | Situação comercial | Exemplos: aberto, faturado, expedido ou cancelado. |
+| `valor_total` (derivado) | Total financeiro do pedido | Não é digitado. Soma de quantidade x preco_unitario_praticado - desconto para todos os itens. |
 
-#### ITEM_PEDIDO *(Entidade associativa)*[cite: 4]
+#### ITEM_PEDIDO *(Entidade associativa)*
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_pedido + id_produto` (PK composta)[cite: 4] | Identificador do item de pedido[cite: 4] | Cada produto pode aparecer uma única vez em cada pedido. Para vender mais unidades, altera-se a quantidade do item existente[cite: 4]. |
-| `quantidade`[cite: 4] | Unidades vendidas[cite: 4] | Número inteiro obrigatório e maior que zero[cite: 4]. |
-| `preco_unitario_praticado`[cite: 4] | Preço aplicado na venda[cite: 4] | Fica congelado no momento do pedido. Alterações posteriores em preco_tabela não modificam vendas já registradas[cite: 4]. |
-| `desconto`[cite: 4] | Desconto do item[cite: 4] | Opcional. Não pode ser maior que quantidade x preco_unitario_praticado[cite: 4]. |
+| `id_pedido + id_produto` (PK composta) | Identificador do item de pedido | Cada produto pode aparecer uma única vez em cada pedido. Para vender mais unidades, altera-se a quantidade do item existente. |
+| `quantidade` | Unidades vendidas | Número inteiro obrigatório e maior que zero. |
+| `preco_unitario_praticado` | Preço aplicado na venda | Fica congelado no momento do pedido. Alterações posteriores em preco_tabela não modificam vendas já registradas. |
+| `desconto` | Desconto do item | Opcional. Não pode ser maior que quantidade x preco_unitario_praticado. |
 
 #### CLIENTE
 | Atributo | Descrição | Regra de Negócio Associada |
 | :--- | :--- | :--- |
-| `id_cliente` (PK)[cite: 4] | Identificador do cliente[cite: 4] | Chave primária gerada pelo sistema[cite: 4]. |
-| `nome`[cite: 4] | Nome ou razão social[cite: 4] | Obrigatório. Nome completo para pessoa física; razão social para pessoa jurídica[cite: 4]. |
-| `cpf_cnpj`[cite: 4] | Documento do cliente[cite: 4] | Obrigatório e único. Utilizado na análise de crédito. Dado protegido pela LGPD[cite: 4]. |
-| `inscricao_estadual`[cite: 4] | Registro estadual[cite: 4] | Obrigatória somente para perfil_cliente = Atacado/Lojista. Para Varejo Final, permanece vazia[cite: 4]. |
-| `email`[cite: 4] | E-mail[cite: 4] | Usado para comunicação e envio de nota fiscal eletrônica[cite: 4]. |
-| `telefone`[cite: 4] | Telefone ou WhatsApp[cite: 4] | Principal canal de contato[cite: 4]. |
-| `nome_comprador_responsavel`[cite: 4] | Responsável por compras[cite: 4] | Pessoa que realiza pedidos em nome do cliente, especialmente em vendas de atacado[cite: 4]. |
-| `perfil_cliente`[cite: 4] | Categoria comercial[cite: 4] | Aceita: Varejo Final ou Atacado/Lojista. Define regras de preço e de inscrição estadual[cite: 4]. |
-| `limite_credito`[cite: 4] | Teto para compras a prazo[cite: 4] | Aplicável a pagamentos em boleto. O valor total do pedido não pode ultrapassá-lo[cite: 4]. |
-| `status_aprovacao_financeira`[cite: 4] | Situação do crédito[cite: 4] | Aceita: Pendente, Aprovado ou Reprovado. Cliente lojista novo inicia como Pendente[cite: 4]. |
+| `id_cliente` (PK) | Identificador do cliente | Chave primária gerada pelo sistema. |
+| `nome` | Nome ou razão social | Obrigatório. Nome completo para pessoa física; razão social para pessoa jurídica. |
+| `cpf_cnpj` | Documento do cliente | Obrigatório e único. Utilizado na análise de crédito. Dado protegido pela LGPD. |
+| `inscricao_estadual` | Registro estadual | Obrigatória somente para perfil_cliente = Atacado/Lojista. Para Varejo Final, permanece vazia. |
+| `email` | E-mail | Usado para comunicação e envio de nota fiscal eletrônica. |
+| `telefone` | Telefone ou WhatsApp | Principal canal de contato. |
+| `nome_comprador_responsavel` | Responsável por compras | Pessoa que realiza pedidos em nome do cliente, especialmente em vendas de atacado. |
+| `perfil_cliente` | Categoria comercial | Aceita: Varejo Final ou Atacado/Lojista. Define regras de preço e de inscrição estadual. |
+| `limite_credito` | Teto para compras a prazo | Aplicável a pagamentos em boleto. O valor total do pedido não pode ultrapassá-lo. |
+| `status_aprovacao_financeira` | Situação do crédito | Aceita: Pendente, Aprovado ou Reprovado. Cliente lojista novo inicia como Pendente. |
 
 ### 9.2 Relacionamentos do Recorte (9 Entidades)
-* **abastece:** `FORNECEDOR (1,N) — INSUMO (0,N)` (Relação N:N)[cite: 4].
-* **constitui:** `INSUMO (1,1) — FICHA_TECNICA (0,N)`[cite: 4].
-* **detalha-se em:** `PRODUTO (1,1) — FICHA_TECNICA (0,N)`[cite: 4].
-* **Especialização TD:** `PRODUTO` especializa-se em `BOLSA` / `ACESSORIO` de forma Total e Disjunta[cite: 4].
-* **integra:** `PRODUTO (1,1) — ITEM_PEDIDO (0,N)`[cite: 4].
-* **compreende:** `PEDIDO (1,1) — ITEM_PEDIDO (1,N)`[cite: 4].
-* **efetua:** `CLIENTE (1,1) — PEDIDO (0,N)`[cite: 4].
+* **abastece:** `FORNECEDOR (1,N) — INSUMO (0,N)` (Relação N:N).
+* **constitui:** `INSUMO (1,1) — FICHA_TECNICA (0,N)`.
+* **detalha-se em:** `PRODUTO (1,1) — FICHA_TECNICA (0,N)`.
+* **Especialização TD:** `PRODUTO` especializa-se em `BOLSA` / `ACESSORIO` de forma Total e Disjunta.
+* **integra:** `PRODUTO (1,1) — ITEM_PEDIDO (0,N)`.
+* **compreende:** `PEDIDO (1,1) — ITEM_PEDIDO (1,N)`.
+* **efetua:** `CLIENTE (1,1) — PEDIDO (0,N)`.
 
 ### 9.4 Uso de Ferramentas de Apoio neste anexo
 Utilizado suporte pontual para revisão de consistência entre dicionário e diagrama do recorte de 9 entidades.
