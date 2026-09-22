@@ -433,7 +433,6 @@ Como **trabalhos futuros**, ficam pendentes: (1) a inclusão dos fluxogramas dos
 Não foram utilizadas fontes bibliográficas externas. O modelo conceitual foi derivado exclusivamente do levantamento de requisitos obtido por pesquisa de campo (visita e entrevista) junto à Contrasti Bolsas e Acessórios Ltda (contato: Osmar Lingiardi), conforme registrado na Seção 1. 
 
 ---
-
 ## Critérios Atitudinais (20%)
 
-Avaliados por 360º entre os integrantes do grupo — não preenchido neste README.
+A avaliação atitudinal (360º) foi conduzida de forma individual e confidencial por cada integrante do grupo, contemplando critérios como comprometimento, pontualidade, proatividade e colaboração no desenvolvimento do projeto. Os resultados consolidados foram submetidos conforme as diretrizes e canais oficiais da disciplina.
