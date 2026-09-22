@@ -376,7 +376,7 @@ Principais processos mapeados (extraídos do levantamento de requisitos, um por 
 
 ## 7. Diagrama Entidade-Relacionamento (DER)
 
-* **Arquivos anexados:** `docs/der/der-completo-21-entidades.png` e `docs/der/der-completo-21-entidades.svg`.
+* **Arquivos anexados:** `Modelagem_Banco_de_dados/diagrams/der-9-entidades.png` (ou os caminhos equivalentes no seu repositório).
 
 ---
 
