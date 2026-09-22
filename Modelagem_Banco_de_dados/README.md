@@ -119,7 +119,7 @@ Principais processos mapeados (extraídos do levantamento de requisitos, um por 
 
 ## 5. Dicionário de Dados Conceitual (Modelo Completo — 21 Entidades)
 
-*As 21 entidades abaixo cobrem integralmente as 8 seções do levantamento de requisitos da empresa.*
+*As 21 entidades abaixo cobrem integralmente as seções do levantamento de requisitos da empresa.*
 
 ### CLIENTE
 | Atributo | Descrição | Regra de Negócio Associada |
@@ -524,4 +524,4 @@ Não foram utilizadas fontes bibliográficas externas. O modelo conceitual foi d
 
 ## Critérios Atitudinais (20%)
 
-A avaliação atitudinal (360º) foi conduzida de forma individual e confidencial por cada integrante do grupo, contemplando critérios como comprometimento, pontualidade, proatividade e colaboração no desenvolvimento do projeto. Os resultados consolidados foram submetidos conforme as diretrizes e canais oficiais da disciplina.
+A avaliação atitudinal (360º) foi conduzida de forma individual e confidencial por cada integrante do grupo, contemplando critérios como comprometimento, pontualidade, proatividade e colaboração no desenvolvimento do projeto. O resultado consolidado foi submetido conforme as diretrizes e canais oficiais da disciplina.
