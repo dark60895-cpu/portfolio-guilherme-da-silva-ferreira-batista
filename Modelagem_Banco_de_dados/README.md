@@ -117,9 +117,228 @@ Principais processos mapeados (extraídos do levantamento de requisitos, um por 
 
 ---
 
-## 5. Dicionário de Dados Conceitual (Preliminar — 21 Entidades)
+## 5. Dicionário de Dados Conceitual (Modelo Completo — 21 Entidades)
 
-*(As 21 entidades cobrem as 8 seções do levantamento de requisitos. O dicionário detalhado segue a mesma estrutura conceitual validada).*
+*As 21 entidades abaixo cobrem integralmente as 8 seções do levantamento de requisitos da empresa.*
+
+### CLIENTE
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_cliente` | Identificador interno do cliente | Chave primária |
+| `razao_social_nome` | Razão social (PJ) ou nome completo (PF) | Obrigatório |
+| `cnpj_cpf` | Documento fiscal do cliente | Usado na consulta de restrição de crédito |
+| `inscricao_estadual` | Registro estadual do cliente | Obrigatório apenas se perfil = Atacado/Lojista |
+| `email_nfe` | E-mail para envio da nota fiscal eletrônica | Obrigatório; canal de entrega da NF-e/NFC-e |
+| `telefone_whatsapp` | Contato principal | Usado também como canal de venda via WhatsApp |
+| `nome_comprador_responsavel` | Pessoa de contato para compras | Preenchido principalmente para Atacado/Lojista |
+| `perfil_cliente` | Classificação comercial | Domínio: Varejo Final / Atacado-Lojista |
+| `limite_credito` | Teto de faturamento via boleto | Referência observada: R$ 10.000,00 |
+| `status_aprovacao_financeira` | Situação de aprovação de crédito | Domínio: Pendente / Aprovado / Reprovado |
+
+### ENDERECO_CLIENTE *(entidade fraca — depende de CLIENTE)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_endereco` | Identificador do endereço | Chave primária |
+| `cod_cliente` | Cliente ao qual o endereço pertence | Chave estrangeira → CLIENTE |
+| `tipo_endereco` | Finalidade do endereço | Domínio: Matriz / Entrega / Cobrança |
+| `logradouro` | Rua/avenida e número | Obrigatório |
+| `cidade` | Cidade | Obrigatório |
+| `uf` | Unidade federativa | Obrigatório; sigla de 2 letras (ex.: SP) |
+| `cep` | Código postal | Obrigatório; usado no cálculo de frete |
+
+### FORNECEDOR
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_fornecedor` | Identificador do fornecedor | Chave primária |
+| `razao_social` | Nome empresarial do fornecedor | Obrigatório |
+| `cnpj` | Documento fiscal | Obrigatório e único. Dado protegido pela LGPD |
+| `inscricao_estadual` | Registro estadual | Opcional |
+| `categoria_insumo` | Tipo de insumo fornecido | Domínio: Curtume, Ferragens, Zíperes, Embalagens |
+| `contato_vendedor` | Pessoa de contato comercial | Nome da pessoa que atende a empresa |
+| `prazo_medio_entrega_dias` | Lead time médio de entrega | Usado no planejamento de produção |
+
+### INSUMO
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_insumo` | Identificador do insumo | Chave primária |
+| `descricao_insumo` | Nome do insumo (ex.: Couro Bovino Caramelo) | Obrigatório |
+| `categoria_insumo` | Categoria do insumo | Mesmo domínio de FORNECEDOR |
+| `unidade_medida` | Unidade de controle de estoque | Domínio: dm², m², unidade, metro, kg, litro |
+| `estoque_minimo` | Saldo mínimo configurável | Dispara alerta automático de recompra |
+| `saldo_estoque_atual` | Saldo atual em estoque | Atualizado a cada entrada/baixa |
+
+### LOTE_INSUMO *(entidade fraca — INSUMO, FORNECEDOR e COMPRA)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_lote` | Identificador do lote | Chave primária |
+| `cod_insumo` | Insumo recebido | Chave estrangeira → INSUMO |
+| `cod_fornecedor` | Fornecedor de origem | Chave estrangeira → FORNECEDOR |
+| `cod_compra` | Compra que originou o lote | Chave estrangeira → COMPRA |
+| `numero_lote` | Identificação do lote (ex.: 2026-A) | Garante rastreabilidade de cor/textura |
+| `data_recebimento` | Data de entrada no estoque | Atualiza o saldo atual |
+| `quantidade_recebida` | Quantidade recebida | Mesma unidade de medida do insumo |
+| `cor_tonalidade` | Cor/tonalidade do insumo (couro) | Preenchida principalmente para couro |
+| `preco_pago` | Preço pago nesse recebimento | Alimenta o histórico de preço |
+
+### COMPRA
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_compra` | Identificador da compra | Chave primária |
+| `cod_fornecedor` | Fornecedor da compra | Chave estrangeira → FORNECEDOR |
+| `numero_compra` | Número/identificação da compra | Sequencial, gerado pelo sistema |
+| `data_compra` | Data da compra | Usada no cálculo do lead time |
+| `forma_entrada` | Origem do lançamento | Domínio: XML de NF-e / Manual |
+| `valor_total` | Valor total da compra | Origina o lançamento em CONTAS_PAGAR |
+| `taxa_pontualidade_entrega` | Percentual de pontualidade apurado | Alimenta a avaliação do fornecedor |
+
+### CONTAS_PAGAR
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_titulo_pagar` | Identificador do título | Chave primária |
+| `cod_compra` | Compra que gerou o título | Chave estrangeira → COMPRA |
+| `valor` | Valor do título | Herdado do valor_total da COMPRA |
+| `data_vencimento` | Data de vencimento | Prazo limite para pagamento |
+| `data_pagamento` | Data em que foi pago | Nulo até a baixa |
+| `status_pagamento` | Situação do título | Domínio: Aberto / Pago / Atrasado |
+
+### MODELO_PRODUTO
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_modelo` | Identificador do modelo | Chave primária |
+| `nome_modelo` | Nome do modelo (ex.: Bolsa Tote) | Obrigatório |
+| `descricao` | Descrição do modelo | Texto livre para catálogo |
+
+### VARIACAO_PRODUTO (SKU)
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_sku` | Identificador da variação | Chave primária |
+| `cod_modelo` | Modelo ao qual pertence | Chave estrangeira → MODELO_PRODUTO |
+| `codigo_sku` | Código comercial | Gerado a partir de modelo + cor + tipo |
+| `cor` | Cor da variação | Obrigatório |
+| `tipo_couro` | Tipo de couro utilizado | Ex.: Bovino Vaqueta, Mestiço |
+| `tipo_ferragem` | Tipo de ferragem utilizada | Ex.: Dourada, Prata, Escovada |
+| `preco_venda_sugerido` | Preço de venda calculado | (Insumos + Mão de obra + Rateio) × Markup |
+| `tempo_estimado_mao_obra_min` | Tempo estimado de produção | Referência para planejamento |
+
+### ITEM_FICHA_TECNICA *(entidade associativa — BOM)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_sku` | Variação de produto | Chave primária composta + FK → VARIACAO_PRODUTO |
+| `cod_insumo` | Insumo utilizado | Chave primária composta + FK → INSUMO |
+| `quantidade_necessaria` | Quantidade do insumo por unidade produzida | Ex.: dm² de couro, unidades de zíper |
+| `unidade_medida_item` | Unidade da quantidade necessária | Deve ser a mesma do INSUMO |
+
+### ARTESAO_FACCAO
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_artesao` | Identificador do artesão/facção | Chave primária |
+| `nome` | Nome do artesão ou razão social | Obrigatório |
+| `tipo_vinculo` | Natureza do vínculo | Domínio: Artesão Interno / Facção Terceirizada |
+| `telefone` | Contato | Usado para agendamento |
+
+### ETAPA_PRODUCAO *(catálogo)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_etapa` | Identificador da etapa | Chave primária |
+| `nome_etapa` | Nome da etapa | Modelagem, Corte, Costura, Acabamento, etc. |
+| `ordem_sequencial` | Posição da etapa no fluxo produtivo | Define a sequência do Kanban |
+
+### ORDEM_PRODUCAO
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_op` | Identificador da ordem de produção | Chave primária |
+| `cod_sku` | Variação de produto a ser produzida | Chave estrangeira → VARIACAO_PRODUTO |
+| `numero_op` | Número da OP | Sequencial, painel Kanban |
+| `data_abertura` | Data de abertura | Dispara a reserva/baixa automática |
+| `quantidade_produzir` | Quantidade a produzir | Inteiro maior que zero |
+| `status_kanban` | Status atual da OP | Domínio: Aguardando / Em Corte / Em Costura / Finalizado |
+
+### EXECUCAO_ETAPA *(entidade associativa)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_execucao` | Identificador da execução | Chave primária |
+| `cod_op` | Ordem de produção | Chave estrangeira → ORDEM_PRODUCAO |
+| `cod_etapa` | Etapa executada | Chave estrangeira → ETAPA_PRODUCAO |
+| `cod_artesao` | Responsável pela execução | Chave estrangeira → ARTESAO_FACCAO |
+| `data_inicio` | Início da execução | Início da contagem para o artesão |
+| `data_fim` | Fim da execução | Mede a duração e baseia o pagamento |
+| `percentual_aproveitamento` | % de aproveitamento do couro | Aplicável à etapa de Corte |
+| `percentual_perda` | % de perda/retalho | Aplicável à etapa de Corte |
+
+### USUARIO
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_usuario` | Identificador do usuário | Chave primária |
+| `nome` | Nome do usuário | Obrigatório |
+| `login` | Login de acesso | Obrigatório e único |
+| `senha_hash` | Senha (armazenada com hash) | Nunca em texto puro |
+| `perfil_acesso` | Perfil de acesso ao sistema | Domínio: Vendedor / Gerente / Financeiro / Admin |
+| `tipo_vendedor` | Natureza do vínculo comercial | Interno / Representante Externo |
+| `percentual_comissao` | Percentual de comissão | Padrão 5%, diferenciado por canal |
+
+### PEDIDO_VENDA
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_pedido` | Identificador do pedido | Chave primária |
+| `cod_cliente` | Cliente do pedido | Chave estrangeira → CLIENTE |
+| `cod_usuario` | Vendedor/representante responsável | Chave estrangeira → USUARIO |
+| `numero_pedido` | Número do pedido | Sequencial, exibido ao cliente |
+| `data_pedido` | Data do pedido | Obrigatória; início do faturamento |
+| `canal_venda` | Canal de venda | Domínio: Loja Física / E-commerce / WhatsApp / Rep |
+| `forma_pagamento` | Forma de pagamento | Domínio: PIX / Cartão / Boleto |
+| `condicao_parcelamento` | Condição de parcelamento | Ex.: 30/60/90 dias |
+| `status_pedido` | Situação do pedido | Andamento do pedido |
+
+### ITEM_PEDIDO *(entidade associativa)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_item_pedido` | Identificador do item | Chave primária |
+| `cod_pedido` | Pedido ao qual pertence | Chave estrangeira → PEDIDO_VENDA |
+| `cod_sku` | Produto vendido | Chave estrangeira → VARIACAO_PRODUTO |
+| `quantidade` | Quantidade vendida | Inteiro maior que zero |
+| `preco_unitario_praticado` | Preço unitário praticado | Congelado no momento da venda |
+| `desconto` | Desconto aplicado | Opcional |
+
+### NOTA_FISCAL
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_nf` | Identificador da nota | Chave primária |
+| `cod_pedido` | Pedido faturado | Chave estrangeira → PEDIDO_VENDA |
+| `numero_nf` | Número da nota | Sequencial (SEFAZ) |
+| `tipo_nf` | Tipo de documento fiscal | Domínio: NF-e / NFC-e |
+| `data_emissao` | Data de emissão | Referência legal |
+| `valor_total` | Valor total da nota | Igual ao valor_total do pedido |
+
+### CONTAS_RECEBER
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_titulo_receber` | Identificador do título | Chave primária |
+| `cod_pedido` | Pedido que gerou o título | Chave estrangeira → PEDIDO_VENDA |
+| `valor` | Valor do título | Herdado do pedido |
+| `data_vencimento` | Data de vencimento | Segue a condição de parcelamento |
+| `data_recebimento` | Data em que foi recebido | Nulo até a baixa |
+| `status_recebimento` | Situação do título | Domínio: Aberto / Recebido / Atrasado |
+
+### EXPEDICAO *(1:1 com pedido)*
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_expedicao` | Identificador da expedição | Chave primária |
+| `cod_pedido` | Pedido expedido | Chave estrangeira → PEDIDO_VENDA |
+| `data_envio` | Data de envio | Despacho efetivo |
+| `transportadora` | Transportadora utilizada | Ex.: Correios, Melhor Envio |
+| `codigo_rastreio` | Código de rastreamento | Fornecido pela transportadora |
+| `checklist_conferencia` | Conferência realizada | Via código de barras |
+| `dust_bag_incluso` | Saquinho protetor incluído | Checklist de embalagem |
+
+### RMA_GARANTIA
+| Atributo | Descrição | Regra de Negócio Associada |
+| :--- | :--- | :--- |
+| `cod_rma` | Identificador do chamado | Chave primária |
+| `cod_item_pedido` | Item associado à garantia | Chave estrangeira → ITEM_PEDIDO |
+| `data_abertura` | Data de abertura do chamado | Inicia o prazo de análise |
+| `motivo_defeito` | Motivo relatado | Descrição do defeito |
+| `status_rma` | Situação do chamado | Domínio: Aberto / Em Reparo / Devolvido |
+| `data_devolucao` | Data de devolução ao cliente | Retorno ao cliente |
 
 ---
 
