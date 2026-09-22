@@ -436,5 +436,3 @@ Este recorte de 9 entidades foi produzido em uma sessão de trabalho separada, a
 Avaliados por 360º entre os integrantes do grupo — não preenchido neste README.
 
 ---
-
-
