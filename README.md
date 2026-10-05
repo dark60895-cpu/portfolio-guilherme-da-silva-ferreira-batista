@@ -86,6 +86,7 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 | Projeto Engenharia de Contexto e Lógica Física | Engine que traduz contextos do mundo físico em lógica de programação e regras estruturadas para sistemas inteligentes | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-contexto-e-logica-fisica) |
 | Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
+| Modelagem de Banco de Dados | Modelagem conceitual (DER na notação de Chen) de um sistema de custos de produção e vendas para uma indústria de bolsas e acessórios, com modelo completo de 21 entidades e recorte simplificado de 9, a partir de levantamento de requisitos em campo | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Modelagem_Banco_de_dados) |
 | Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
 
 ---
@@ -97,6 +98,10 @@ portfolio/
 ├── Boot_IA-Whatsapp/
 ├── CV/
 │   └── curriculo_guilherme_da_silva.pdf
+├── Modelagem_Banco_de_dados/
+│   ├── README.md
+│   ├── diagrams/
+│   └── docs/
 ├── Projeto-Modularização/README.md
 ├── Projeto-Sistema_de_auditoria_de_recursos/README.md
 ├── Projeto-algoritmo-de-auditoria-de-dados/README.md
