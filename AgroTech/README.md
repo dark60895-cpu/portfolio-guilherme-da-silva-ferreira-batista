@@ -1,8 +1,4 @@
-# AgroTech
-
-➡️ [Abrir o portfólio de Prototipagem de Sistemas Computacionais](./Prototipagem%20de%20Sistemas%20Computacionais/README.md)
-
-
+# 🌱 AgroTech Monitor
 
 **Disciplina:** Prototipagem de Sistemas Computacionais
 **Professora:** Profa. Ma. Angela P. Barcellos
@@ -10,19 +6,21 @@
 
 Sistema fictício para gestão de hortas comunitárias administradas pelo Sr. Carlos, que hoje controla tudo em papel.
 
+➡️ [Abrir o portfólio completo](./Prototipagem%20de%20Sistemas%20Computacionais/README.md)
+
 ## 📂 Estrutura
 
-| Sprint | Pasta | Conteúdo |
-| :--- | :--- | :--- |
-| 1 | [`01-sprint-kickoff`](01-sprint-kickoff/visao-do-produto.md) | Stakeholders, backlog, BDD e jornada AS-IS |
-| 2 | [`02-sprint-plantabaixa`](02-sprint-plantabaixa/diagramas.md) | Casos de uso, classes, BPMN e especificação textual |
-| 3 | [`03-sprint-wireframes`](03-sprint-wireframes/wireframe.html) | Wireframe mobile HTML interativo |
-| 4 | [`04-sprint-mvp-validacao`](04-sprint-mvp-validacao/validacao-e-pitch.md) | Teste de usabilidade e pitch |
+| Sprint | Tema | Conteúdo | Link |
+| :---: | :--- | :--- | :---: |
+| 1 | O Desafio AgroTech (Kick-off) | Stakeholders, backlog, BDD e jornada AS-IS | [Acessar](./Prototipagem%20de%20Sistemas%20Computacionais/01-Sprint-Kickoff/README.md) |
+| 2 | A Planta Baixa do Sistema | Casos de uso, classes, BPMN e especificação textual | [Acessar](./Prototipagem%20de%20Sistemas%20Computacionais/02-Sprint-PlantaBaixa/README.md) |
+| 3 | Estrutura e Navegação (UX) | Wireframe mobile interativo | [Acessar](./Prototipagem%20de%20Sistemas%20Computacionais/03-Sprint-Wireframes/README.md) |
+| 4 | Entrega Final do MVP | Teste de usabilidade e pitch | [Acessar](./Prototipagem%20de%20Sistemas%20Computacionais/04-Sprint-MVP-Validacao/README.md) |
 
-🌐 Site do portfólio: pasta [`docs`](docs/index.html) (GitHub Pages).
+## 🌐 Site do portfólio
+[Abrir o site](https://dark60895-cpu.github.io/portfolio-guilherme-da-silva-ferreira-batista/) (GitHub Pages, com todas as imagens e o wireframe funcionando).
 
 ## 🖼️ Prévia
 
-![Jornada](01-sprint-kickoff/img/sprint1-jornada.png)
-![Wireframe](03-sprint-wireframes/img/sprint3-wireframe.png)
-
+![Jornada](./Prototipagem%20de%20Sistemas%20Computacionais/01-Sprint-Kickoff/img/sprint1-jornada.png)
+![Wireframe](./Prototipagem%20de%20Sistemas%20Computacionais/03-Sprint-Wireframes/img/sprint3-wireframe.png)
