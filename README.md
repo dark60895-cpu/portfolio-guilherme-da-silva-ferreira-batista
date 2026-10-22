@@ -90,6 +90,10 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 | Projeto Engenharia De Soluções Lógicas | Criação de sistemas e fluxos inteligentes para simplificar problemas complexos por meio de lógica estruturada | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-engenharia-de-solu%C3%A7%C3%B5es-logicas) |
 | Projeto Traduzindo Lógica Para Python | Aplicação prática de lógica de programação e estruturas de dados usando a linguagem Python | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Projeto-traduzindo-logica-para-python) |
 | Sistema de Triagem Hospitalar | Desenvolvimento em equipe de 8 pessoas de um sistema de triagem hospitalar, do levantamento de requisitos à entrega final (1º semestre da faculdade) | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/triage-trio-plus) |
+| AgroTech Monitor | Prototipagem de um sistema de gestão de hortas comunitárias em 4 sprints: backlog e BDD, casos de uso, classes e BPMN, wireframe mobile interativo e teste de usabilidade com pitch do MVP | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/AgroTech) |
+| Modelagem de Banco de Dados — Contrasti | Modelagem conceitual (DER em notação de Chen, 21 e 9 entidades) para controle de custos de produção e vendas de uma indústria de bolsas de couro, com levantamento de requisitos e dicionário de dados | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Modelagem_Banco_de_dados) |
+| Interface e Jornada do Usuário (SNBU) | Persona, jornada, 6 telas com design inclusivo (WCAG 2.1 AA) e protótipo HTML com alto contraste para uma biblioteca universitária | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/interface-e-jornada-do-usuario) |
+| Agente de IA para WhatsApp (Gemini) | Bot em Node.js que conecta o WhatsApp ao Google Gemini, com memória de contexto, persona configurável e filtro de segurança (guardrail) antes de chamar a IA | [Ver Projeto](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/tree/main/Boot_IA-Whatsapp) |
 
 ---
 
@@ -97,9 +101,15 @@ Atuação na operação do dia a dia, acompanhando processos internos e identifi
 
 ```
 portfolio/
+├── AgroTech/
+│   └── Prototipagem de Sistemas Computacionais/   (sprints 01 a 04 + docs/index.html)
 ├── Boot_IA-Whatsapp/
 ├── CV/
 │   └── curriculo_guilherme_da_silva.pdf
+├── Modelagem_Banco_de_dados/
+│   ├── README.md
+│   ├── diagrams/
+│   └── docs/
 ├── Projeto-Modularização/README.md
 ├── Projeto-Sistema_de_auditoria_de_recursos/README.md
 ├── Projeto-algoritmo-de-auditoria-de-dados/README.md
@@ -107,7 +117,10 @@ portfolio/
 ├── Projeto-engenharia-de-contexto-e-logica-fisica/README.md
 ├── Projeto-engenharia-de-soluções-logicas/README.md
 ├── Projeto-traduzindo-logica-para-python/README.md
+├── interface-e-jornada-do-usuario/
+│   ├── trabalho-01/
+│   ├── trabalho-02/
+│   └── docs/
 ├── triage-trio-plus/README.md
 └── README.md                    (perfil principal)
 ```
-
