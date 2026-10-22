@@ -21,4 +21,16 @@ Sistema fictício para gestão de **hortas comunitárias** administradas pelo Sr
 ![Wireframe](./03-sprint-wireframes/img/sprint3-wireframe.png)
 
 ## 🌐 Site do portfólio
-A pasta `docs` na raiz do repositório contém o site (GitHub Pages), com todas as imagens e o wireframe funcionando.
+A pasta [`docs`](./docs/index.html), dentro desta pasta, contém o site do portfólio (publicado com GitHub Pages), com todas as imagens e o wireframe funcionando.
+
+## 🗂️ Estrutura desta pasta
+```
+Prototipagem de Sistemas Computacionais/
+├── README.md
+├── 01-sprint-kickoff/
+├── 02-sprint-plantabaixa/
+├── 03-sprint-wireframes/
+├── 04-sprint-mvp-validacao/
+└── docs/
+    └── index.html
+```
