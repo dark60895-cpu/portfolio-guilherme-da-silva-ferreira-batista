@@ -1,0 +1,268 @@
+# Portfólio Profissional: Currículo, LinkedIn e GitHub
+
+**Guilherme da Silva Ferreira Batista**
+Estudante de Análise e Desenvolvimento de Sistemas (UNICID, Campus Tatuapé) | São Paulo, SP
+
+[LinkedIn](https://linkedin.com/in/guilherme-da-silva-ferreirabatista) | [GitHub](https://github.com/dark60895-cpu) | guilhermesilva123159@gmail.com | (11) 93225-3037
+
+> Currículo em PDF: [curriculo_guilherme.pdf](./curriculo_guilherme.pdf)
+
+---
+
+## Sumário
+
+1. [Introdução](#introdução)
+2. [Autoconhecimento](#autoconhecimento-a-base-das-três-ferramentas)
+3. [Parte 1: Currículo](#parte-1-currículo)
+4. [Parte 2: LinkedIn](#parte-2-linkedin)
+5. [Parte 3: GitHub](#parte-3-github)
+6. [Plano de ação e conclusão](#plano-de-ação-e-conclusão)
+
+---
+
+## Introdução
+
+Este portfólio reúne as três ferramentas que apresentam um profissional de tecnologia ao mercado: o currículo, o LinkedIn e o GitHub. Cada uma responde a uma pergunta diferente do recrutador, e as três precisam contar a mesma história.
+
+O material parte da aula de Mentoria de Carreira e da aula sobre headline e rotina no LinkedIn, aplicadas à trajetória do Guilherme: estudante de Análise e Desenvolvimento de Sistemas, com experiência anterior em operação, estoque e produção.
+
+| Ferramenta | Pergunta que o recrutador faz | O que ela precisa mostrar |
+| --- | --- | --- |
+| Currículo | Esta pessoa serve para a vaga? | Resumo claro, experiência, projetos e formação em uma página |
+| LinkedIn | Quem é esta pessoa e como ela se comunica? | Headline forte, história de transição e presença constante |
+| GitHub | Esta pessoa sabe fazer o que diz? | Código, projetos organizados e README bem escrito |
+
+---
+
+## Autoconhecimento: a base das três ferramentas
+
+Antes de escrever qualquer perfil, a Mentoria de Carreira propõe quatro eixos: valores, motivadores, interesses e talentos.
+
+| Eixo | Pergunta da aula | Resposta aplicada ao Guilherme |
+| --- | --- | --- |
+| Valores | O que é importante para você? O que espera obter do trabalho? | Aprender sempre, ajudar colegas, comunicação clara e direta, trabalho em equipe |
+| Motivadores | O que te motiva a construir uma carreira? O que faz seus olhos brilharem? | Entender como os sistemas funcionam por trás das aplicações e ver o que construiu funcionando |
+| Interesses | Quais áreas profissionais mais deixam você satisfeito? | Programação, banco de dados, inteligência artificial e processos organizados |
+| Talentos | Quais atividades expressam melhor seus talentos? Por quê? | Aprender de forma autodidata e explicar com paciência até fazer sentido |
+
+### Perguntas de reflexão
+
+- Quando você pensa em carreira, quais são as primeiras sensações e emoções?
+- O que está limitando você profissionalmente? Não é o supervisor nem a empresa: são as suas escolhas.
+- O que você faria diferente, mas, por medo, não faz?
+- Quais atividades do dia a dia realmente trazem resultado?
+- Por que você faz o que faz? Não pode ser só pelo dinheiro: tem que ter algo a mais.
+
+As respostas de valores e talentos alimentam o resumo do currículo e a seção Sobre do LinkedIn. Os interesses definem quais projetos ficam em destaque no GitHub.
+
+---
+
+## Parte 1: Currículo
+
+O currículo cabe em uma página e usa duas colunas: a lateral traz contato, hard skills, soft skills e cursos; a coluna principal traz perfil, experiência, projetos e formação.
+
+### Estrutura e função de cada bloco
+
+| Bloco | Função | Como está no currículo |
+| --- | --- | --- |
+| Contato | Permitir que o recrutador responda | E-mail, telefone, LinkedIn e GitHub |
+| Perfil | Vender a transição de carreira | Autodidata, comunicativo, foco em programação, banco de dados e IA |
+| Experiência | Provar responsabilidade e rotina de trabalho | Auxiliar de Produção (Out/2026 a atual); Operador de Caixa, Estoquista e Auxiliar Operacional no Atacadão (Nov/2021 a Abr/2026) |
+| Projetos | Substituir a falta de experiência formal em TI | Triagem Hospitalar, Modelagem de Banco de Dados e Agente de IA para WhatsApp |
+| Formação | Mostrar a graduação em andamento | Análise e Desenvolvimento de Sistemas (Tecnólogo), UNICID |
+| Skills e cursos | Facilitar a leitura por palavra-chave | Python, Java, CSS, SQL e IA; Power BI, IA na Prática e IA para PMEs |
+
+### Como escrever o perfil profissional
+
+O bom perfil tem três partes: quem você é, o que você sabe e o que busca. No caso do Guilherme: autodidata que gosta de ensinar; estuda Python, Java, CSS, banco de dados e IA e entende como os sistemas funcionam por trás das aplicações; busca a primeira oportunidade na área para aplicar e aprender.
+
+### Como transformar experiência de outra área em ponto forte
+
+| Experiência anterior | Habilidade que transfere para TI |
+| --- | --- |
+| Caixa: registro de compras, formas de pagamento e fechamento | Precisão com dados e atenção a detalhes |
+| Estoque: recebimento, conferência e reposição, com atenção a validades e quantidades | Organização de processos e controle de informação |
+| Auxiliar operacional: uso de sistemas internos | Familiaridade com sistemas e interesse por tecnologia |
+| Produção: seguir receitas, padrões de qualidade e prazos | Disciplina para seguir padrões e cumprir metas |
+
+### Projetos: escreva o resultado, não só o nome
+
+Um projeto no currículo responde a quatro perguntas: o que é, para quem serve, que tecnologias usa e qual foi o seu papel. O Sistema de Triagem Hospitalar, por exemplo, foi feito em equipe de 8 pessoas na UNICID, com telas de recepção, enfermagem e médico, painel gerencial, controle de acesso por perfil e classificação de risco pelo Protocolo de Manchester (React, TypeScript, Tailwind CSS e Supabase).
+
+### Melhorias sugeridas
+
+1. Mostrar o objetivo no topo (por exemplo, Desenvolvedor Júnior ou Analista de Sistemas).
+2. Incluir TypeScript, React, Node.js e Supabase nas hard skills, já que aparecem nos projetos.
+3. Começar cada item de experiência com um verbo de ação e, quando possível, um número.
+4. Manter uma versão do currículo para vagas de TI e outra para vagas administrativas.
+5. Salvar sempre em PDF, no formato curriculo_nome.pdf.
+
+### Checklist antes de enviar
+
+- [ ] Cabe em uma página e está sem erros de português
+- [ ] E-mail profissional e links do LinkedIn e do GitHub funcionando
+- [ ] Datas e nomes de empresas conferidos
+- [ ] Palavras-chave da vaga aparecem no perfil e nas skills
+- [ ] Foto profissional, bem iluminada e com fundo neutro, se for usar
+
+---
+
+## Parte 2: LinkedIn
+
+O LinkedIn é a vitrine: o recrutador chega por busca, vê a foto, a headline e o início do Sobre, e decide em segundos se continua lendo.
+
+### Headline magnética
+
+Fórmula da aula: **função desejada + tecnologias + diferencial**. Exemplo apresentado: *Desenvolvedor Back-end | Python & Django | APIs REST | Foco em performance*.
+
+| Parte da fórmula | Pergunta | Aplicação ao Guilherme |
+| --- | --- | --- |
+| Função desejada | Qual vaga você busca? | Desenvolvedor Júnior |
+| Tecnologias | O que você usa? | Python, JavaScript, React, Node.js |
+| Diferencial | Por que você é diferente? | Estudante de ADS (UNICID), em transição de carreira, com 4 anos de experiência em operação |
+
+Headline sugerida:
+
+```text
+Desenvolvedor Júnior | Python, JavaScript, React e Node.js | Projetos com IA e banco de dados | Estudante de ADS na UNICID
+```
+
+### Seção Sobre
+
+O Sobre deve ter quatro parágrafos curtos: quem você é hoje, de onde vem, o que constrói e o que procura.
+
+```text
+Sou estudante de Análise e Desenvolvimento de Sistemas na UNICID e estou em transição de carreira para a área de tecnologia.
+
+Passei mais de 4 anos no Atacadão, em caixa, estoque e apoio operacional, e hoje atuo em produção. Essa vivência me deu disciplina, organização de processos e facilidade de comunicação.
+
+Na tecnologia, desenvolvo aplicações com React, TypeScript, Node.js, Supabase e Python. Entre os projetos: um sistema de triagem hospitalar baseado no Protocolo de Manchester e um agente de IA para WhatsApp com Google Gemini.
+
+Gosto de aprender sozinho e de explicar o que aprendi. Busco minha primeira oportunidade como Desenvolvedor Júnior ou Analista de Sistemas.
+```
+
+### Experiência, projetos e competências
+
+- **Experiência:** manter Atacadão e a empresa atual, com duas ou três linhas cada, destacando atendimento, controle de estoque e cumprimento de metas.
+- **Projetos:** cadastrar os três projetos na seção Projetos, com link para o repositório no GitHub.
+- **Competências:** Python, Java, JavaScript, TypeScript, React, SQL, Node.js e Supabase, pedindo validação a colegas e professores.
+- **Formação:** UNICID, Análise e Desenvolvimento de Sistemas, em andamento.
+- **Em destaque:** fixar o link do GitHub e o do projeto principal.
+
+### Rotina semanal de menos de 15 minutos por dia
+
+Agenda simples da aula para quem estuda e tem pouco tempo:
+
+| Dia | Ação (até 15 minutos) |
+| --- | --- |
+| Segunda | Publicar o que aprendeu no estudo da semana |
+| Terça | Comentar em três publicações de profissionais da área |
+| Quarta | Compartilhar um projeto ou trecho de código com uma explicação curta |
+| Quinta | Conectar-se com cinco pessoas (recrutadores, colegas e professores) com mensagem personalizada |
+| Sexta | Responder mensagens e seguir empresas de interesse |
+| Fim de semana | Revisar o perfil e planejar a semana seguinte |
+
+### Boas práticas
+
+- Foto profissional, de rosto, com boa luz e fundo neutro.
+- URL personalizada do perfil.
+- Ativar o sinal "Aberto a trabalho", visível para recrutadores.
+- Manter as mesmas informações do currículo: datas, cargos e projetos iguais.
+
+---
+
+## Parte 3: GitHub
+
+O GitHub é a prova: quem está começando na área mostra ali o que sabe fazer.
+
+### Perfil e repositório de apresentação
+
+O GitHub permite um repositório especial, com o mesmo nome do usuário (`dark60895-cpu`), cujo README.md aparece no topo do perfil.
+
+| Bloco do README | Conteúdo |
+| --- | --- |
+| Cabeçalho | Nome, curso, cidade e links de contato |
+| Sobre mim | Dois ou três parágrafos curtos: foco, transição de carreira e objetivo |
+| Tecnologias | Linguagens, front-end, back-end e bancos de dados, IA |
+| Projetos em destaque | Nome, o que faz, tecnologias e link do repositório |
+| Contato | E-mail e redes profissionais |
+
+### Como organizar cada projeto
+
+Cada repositório deve ter nome claro, descrição de uma linha e um README próprio:
+
+```markdown
+# Nome do projeto
+
+Descrição em uma ou duas frases: o que faz e para quem.
+
+## Funcionalidades
+- Telas de recepção, enfermagem e médico
+- Painel gerencial
+- Controle de acesso por perfil
+
+## Tecnologias
+React, TypeScript, Tailwind CSS, Supabase
+
+## Como executar
+1. Clonar o repositório
+2. Instalar as dependências
+3. Configurar as variáveis de ambiente
+4. Rodar o projeto
+
+## Autor
+Guilherme da Silva Ferreira Batista
+```
+
+### Projetos para publicar
+
+| Projeto | Tecnologias | O que mostrar no repositório |
+| --- | --- | --- |
+| Sistema de Triagem Hospitalar | React, TypeScript, Tailwind CSS, Supabase | Prints das telas, explicação do Protocolo de Manchester e papel de cada perfil de acesso |
+| Agente de IA para WhatsApp | Node.js, Google Gemini API | Fluxo de funcionamento, memória de contexto, persona configurável e filtros de segurança |
+| Modelagem de Banco de Dados | Diagrama Entidade-Relacionamento, SQL | Diagrama, dicionário de dados e script de criação das tabelas |
+
+> **Atenção:** nunca publicar chaves de API, senhas ou arquivos `.env`. No projeto do WhatsApp, a chave do Google Gemini deve ficar em variável de ambiente, fora do código.
+
+### Boas práticas de uso
+
+1. Fazer commits pequenos e frequentes, com mensagens claras.
+2. Fixar no perfil os seis repositórios mais importantes.
+3. Manter atividade regular: o gráfico de contribuições mostra constância.
+4. Usar o arquivo `.gitignore` para não enviar arquivos desnecessários ou sigilosos.
+5. Repetir no GitHub o mesmo nome, foto e objetivo usados no LinkedIn e no currículo.
+
+### Checklist do GitHub
+
+- [ ] Repositório de perfil criado como público, com o nome do usuário
+- [ ] README.md do perfil publicado
+- [ ] Três projetos com README próprio
+- [ ] Nenhuma chave ou senha no código
+- [ ] Link do GitHub no currículo e no LinkedIn
+
+---
+
+## Plano de ação e conclusão
+
+As três ferramentas se reforçam: o currículo leva ao LinkedIn, o LinkedIn leva ao GitHub e o GitHub prova o que o currículo afirma.
+
+### Plano de ação em quatro semanas
+
+| Semana | Currículo | LinkedIn | GitHub |
+| --- | --- | --- | --- |
+| 1 | Revisar perfil, skills e projetos; salvar em PDF | Trocar a headline e escrever o Sobre | Publicar o README do perfil |
+| 2 | Criar versão para vagas de TI e versão administrativa | Cadastrar experiência, projetos e competências | Subir o Sistema de Triagem Hospitalar com README |
+| 3 | Enviar para as primeiras vagas de júnior | Iniciar a rotina de 15 minutos por dia | Subir o Agente de IA para WhatsApp, sem chaves no código |
+| 4 | Ajustar conforme respostas recebidas | Conectar-se com recrutadores e pedir validação de competências | Subir a Modelagem de Banco de Dados e fixar os repositórios |
+
+### Conclusão
+
+A Mentoria de Carreira mostra que o ponto de partida é o autoconhecimento: valores, motivadores, interesses e talentos. Com isso claro, a headline deixa de ser uma frase solta e vira função desejada, tecnologias e diferencial. A trajetória do Guilherme, que vem de operação, estoque e produção e hoje constrói sistemas com React, Node.js e IA, é um diferencial real quando bem contada: mostra disciplina, responsabilidade e vontade de aprender.
+
+---
+
+<div align="center">
+
+📫 **Contato:** [guilhermesilva123159@gmail.com](mailto:guilhermesilva123159@gmail.com) | [LinkedIn](https://linkedin.com/in/guilherme-da-silva-ferreirabatista) | [GitHub](https://github.com/dark60895-cpu)
+
+</div>
