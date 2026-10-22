@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SNBU — Biblioteca Universitária | Protótipo</title>
+<style>
+:root{--bg:#eef2f7;--card:#fff;--tx:#14213d;--mut:#5b6478;--pri:#1a4f8b;--pri2:#e8f0fb;--ac:#f5a623;--ok:#1f8a4c;--bd:#d5dbe6}
+body.hc{--bg:#000;--card:#000;--tx:#fff;--mut:#ffe600;--pri:#ffe600;--pri2:#111;--ac:#ffe600;--ok:#00ff6a;--bd:#fff}
+body.hc .btn{color:#000}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--tx);padding:24px}
+h1{text-align:center;margin:0 0 4px;font-size:26px}
+.sub{text-align:center;color:var(--mut);margin:0 0 16px}
+.bar{text-align:center;margin-bottom:24px}
+.bar button{font-size:15px;padding:10px 18px;border-radius:8px;border:2px solid var(--pri);background:var(--card);color:var(--tx);cursor:pointer}
+.grid{display:flex;flex-wrap:wrap;gap:28px;justify-content:center}
+figure{margin:0}
+figcaption{text-align:center;font-weight:700;margin-bottom:8px;font-size:14px}
+.ph{width:270px;height:560px;background:var(--card);border:3px solid var(--tx);border-radius:30px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 8px 24px #0002}
+.st{display:flex;justify-content:space-between;font-size:11px;padding:8px 16px 4px;color:var(--mut)}
+.hd{background:var(--pri);color:#fff;padding:10px 14px;font-weight:700;font-size:15px;display:flex;justify-content:space-between;align-items:center}
+body.hc .hd{color:#000}
+.a11y{display:flex;gap:4px;padding:6px 10px;background:var(--pri2);font-size:10px;flex-wrap:wrap}
+.a11y span{border:1px solid var(--pri);border-radius:10px;padding:2px 6px}
+.bd{flex:1;overflow:hidden;padding:12px 14px;font-size:12px}
+.bd h2{margin:0 0 2px;font-size:16px}
+.mut{color:var(--mut);font-size:11px}
+label{display:block;font-weight:600;margin:9px 0 3px;font-size:11px}
+.in{border:2px solid var(--bd);border-radius:8px;padding:8px;font-size:12px;color:var(--mut)}
+.btn{display:block;background:var(--pri);color:#fff;text-align:center;border-radius:8px;padding:10px;font-weight:700;margin-top:12px;font-size:13px}
+.btn.o{background:transparent;color:var(--pri);border:2px solid var(--pri)}
+body.hc .btn.o{color:var(--pri)}
+.row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--bd)}
+.bk{display:flex;gap:8px;border:1px solid var(--bd);border-radius:10px;padding:8px;margin-top:8px}
+.bk .c{font-size:28px}
+.tag{display:inline-block;font-size:9px;border:1px solid var(--ok);color:var(--ok);border-radius:8px;padding:1px 5px;margin-top:3px}
+.chips{display:flex;gap:5px;margin:6px 0}
+.chips span{border:1px solid var(--pri);border-radius:12px;padding:3px 8px;font-size:11px}
+.chips .on{background:var(--pri);color:#fff}
+body.hc .chips .on{color:#000}
+.nav{display:flex;justify-content:space-around;border-top:1px solid var(--bd);padding:6px 0;font-size:9px;text-align:center;background:var(--card)}
+.nav b{color:var(--pri)}
+.stats{display:flex;gap:6px;margin-top:10px}
+.stats div{flex:1;text-align:center;background:var(--pri2);border-radius:10px;padding:8px 2px;font-size:10px}
+.stats strong{display:block;font-size:18px;color:var(--pri)}
+.sw{width:34px;height:18px;border-radius:10px;background:var(--ok);position:relative}
+.sw:after{content:"";position:absolute;right:2px;top:2px;width:14px;height:14px;border-radius:50%;background:#fff}
+.sl{height:6px;background:var(--bd);border-radius:4px;margin:6px 0}
+.sl i{display:block;width:60%;height:6px;background:var(--pri);border-radius:4px}
+.tot{font-weight:800;font-size:15px}
+.av{width:54px;height:54px;border-radius:50%;background:var(--pri2);display:flex;align-items:center;justify-content:center;font-size:26px;margin:0 auto 6px}
+</style>
+</head>
+<body>
+<h1>📚 SNBU — Biblioteca Universitária</h1>
+<p class="sub">Protótipo de interface com foco em acessibilidade · Guilherme · Prof. Paulo Fratta</p>
+<div class="bar"><button id="hc" aria-pressed="false">♿ Alternar Alto Contraste</button></div>
+
+<div class="grid">
+
+<figure><figcaption>1. HOME / BUSCA</figcaption><div class="ph">
+<div class="st"><span>9:41</span><span>▶ 📶 🔋</span></div>
+<div class="hd"><span>📚 SNBU</span><span>🛒</span></div>
+<div class="a11y"><span>♿ Alto Contraste</span><span>🔊 Leitor</span><span>🔤 Fonte+</span></div>
+<div class="bd"><h2>Biblioteca Universitária</h2>
+<label>Buscar no Acervo</label><div class="in">🔍 Título, autor, ISBN…</div>
+<label>Filtrar por formato:</label>
+<div class="chips"><span class="on">E-book</span><span>Áudio-livro</span><span>Braille</span></div>
+<div class="mut">Resultados (24)</div>
+<div class="bk"><div class="c">📖</div><div><b>Design Inclusivo</b><br><span class="mut">Silva, M. R. | E-book</span><br><span class="tag">PDF Acessível</span> <b>R$ 39,90</b></div></div>
+<div class="bk"><div class="c">📕</div><div><b>UX para Todos</b><br><span class="mut">Costa, J. | Áudio-livro</span><br><span class="tag">MP3 Narrado</span> <b>R$ 29,90</b></div></div>
+<div class="bk"><div class="c">📗</div><div><b>Acessibilidade Web</b><br><span class="mut">Oliveira, P. | Braille</span><br><span class="tag">WCAG 2.1 AA ✔</span></div></div></div>
+<div class="nav"><b>🏠<br>Início</b><span>🔍<br>Busca</span><span>❤️<br>Salvos</span><span>👤<br>Perfil</span><span>♿<br>Acesso</span></div></div></figure>
+
+<figure><figcaption>3. CONFIGURAÇÕES ACESSIBILIDADE</figcaption><div class="ph">
+<div class="st"><span>9:41</span><span>▶ 📶 🔋</span></div>
+<div class="hd"><span>← Acessibilidade</span></div>
+<div class="bd"><h2>Design Inclusivo</h2><div class="mut">Personalize sua experiência · Conforme Lei Brasileira de Inclusão</div>
+<div class="row"><span>👁 Visual — Alto Contraste</span><div class="sw"></div></div>
+<div class="row"><span>🔊 Leitura em Voz Alta</span><div class="sw"></div></div>
+<label>Tamanho da fonte</label><div class="sl"><i></i></div><div class="mut">12 → 24 pt</div>
+<label>Velocidade da leitura</label><div class="sl"><i style="width:40%"></i></div>
+<div class="row"><span>Descrição de imagens (Alt Text)</span><div class="sw"></div></div>
+<div class="row"><span>⌨️ Navegação por teclado / Tab</span><div class="sw"></div></div>
+<div class="mut" style="margin-top:8px">Compatível com NVDA e JAWS</div>
+<span class="tag">WCAG 2.1 AA ✔</span> <span class="tag">LBI ✔</span></div>
+<div class="nav"><span>🏠<br>Início</span><span>🔍<br>Busca</span><span>❤️<br>Salvos</span><span>👤<br>Perfil</span><b>♿<br>Acesso</b></div></div></figure>
+
+<figure><figcaption>4. PERFIL / MINHA CONTA</figcaption><div class="ph">
+<div class="st"><span>9:41</span><span>▶ 📶 🔋</span></div>
+<div class="hd"><span>Meu Perfil</span></div>
+<div class="bd"><div class="av">👤</div><div style="text-align:center"><h2>Ana Lima</h2><div class="mut">Aluna — Eng. de Software</div></div>
+<div class="stats"><div><strong>12</strong>Emprestados</div><div><strong>5</strong>Salvos</div><div><strong>3</strong>Renovações</div></div>
+<div class="row"><span>📚 Meus Empréstimos</span>›</div>
+<div class="row"><span>❤️ Lista de Salvos</span>›</div>
+<div class="row"><span>🕐 Histórico de Leituras</span>›</div>
+<div class="row"><span>♿ Preferências de Acesso</span>›</div>
+<div class="row"><span>🔔 Notificações</span>›</div>
+<div class="btn o">Sair da conta</div></div>
+<div class="nav"><span>🏠<br>Início</span><span>🔍<br>Busca</span><span>❤️<br>Salvos</span><b>👤<br>Perfil</b><span>♿<br>Acesso</span></div></div></figure>
+
+<figure><figcaption>5. LOGIN</figcaption><div class="ph">
+<div class="st"><span>9:41</span><span>▶ 📶 🔋</span></div>
+<div class="hd"><span>📚 SNBU</span></div>
+<div class="a11y"><span>♿ Alto Contraste</span><span>🔊 Leitor</span><span>🔤 Fonte+</span></div>
+<div class="bd"><h2>Bem-vindo de volta!</h2><div class="mut">Acesse sua conta universitária</div>
+<label>E-mail institucional</label><div class="in">usuario@universidade.br</div>
+<label>Senha</label><div class="in">•••••••• 👁</div>
+<div class="mut" style="margin-top:6px;text-decoration:underline">Esqueci minha senha</div>
+<div class="btn">Entrar na conta</div>
+<div class="mut" style="text-align:center;margin:8px 0">ou</div>
+<div class="btn o">🏛️ Entrar com ID Universitário</div>
+<div class="mut" style="text-align:center;margin-top:10px">Não tem conta? <b>Cadastre-se</b></div></div></div></figure>
+
+<figure><figcaption>6. CADASTRO</figcaption><div class="ph">
+<div class="st"><span>9:41</span><span>▶ 📶 🔋</span></div>
+<div class="hd"><span>← Criar Conta</span></div>
+<div class="bd"><div class="mut">Passo 1 de 2 — Dados Pessoais</div><div class="sl"><i style="width:50%"></i></div>
+<label>Nome completo *</label><div class="in">Ex: Ana Lima</div>
+<label>RA / Matrícula *</label><div class="in">Ex: 20231234</div>
+<label>E-mail institucional *</label><div class="in">ana.lima@universidade.br</div>
+<label>Curso *</label><div class="in">Selecione seu curso… ▾</div>
+<label>Senha *</label><div class="in">•••••••• 👁</div>
+<div class="mut">Mín. 8 caracteres · Força: Fraca</div>
+<div class="mut" style="margin-top:6px">☑ Aceito os Termos de Uso e a Política</div>
+<div class="btn">Continuar →</div>
+<div class="mut" style="text-align:center;margin-top:8px">Já tem conta? <b>Fazer login</b></div></div></div></figure>
+
+<figure><figcaption>7. COMPRA / CHECKOUT</figcaption><div class="ph">
+<div class="st"><span>9:41</span><span>▶ 📶 🔋</span></div>
+<div class="hd"><span>← Finalizar Compra</span></div>
+<div class="bd"><h2>Resumo do Pedido</h2>
+<div class="bk"><div class="c">📖</div><div><b>Design Inclusivo</b><br><span class="mut">E-book · PDF Acessível</span></div><b style="margin-left:auto">R$ 39,90</b></div>
+<div class="bk"><div class="c">📕</div><div><b>UX para Todos</b><br><span class="mut">Áudio-livro · MP3</span></div><b style="margin-left:auto">R$ 29,90</b></div>
+<label>Cupom de desconto</label><div class="in">Ex: SNBU2024 &nbsp; <b style="color:var(--pri)">Aplicar</b></div>
+<div class="row"><span>Subtotal</span><span>R$ 69,80</span></div>
+<div class="row"><span>Desconto (Aluno)</span><span>− R$ 10,00</span></div>
+<div class="row tot"><span>Total</span><span>R$ 59,80</span></div>
+<label>Forma de pagamento</label><div class="chips"><span class="on">⚡ Pix</span><span>💳 Cartão de Crédito</span></div>
+<div class="btn">Confirmar Compra</div>
+<div class="mut" style="text-align:center;margin-top:6px">🔒 Pagamento seguro — SSL / PCI-DSS</div></div></div></figure>
+
+</div>
+<script>
+var b=document.getElementById('hc');
+b.addEventListener('click',function(){var on=document.body.classList.toggle('hc');b.setAttribute('aria-pressed',on)});
+</script>
+</body>
+</html>
