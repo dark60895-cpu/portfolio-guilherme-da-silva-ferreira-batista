@@ -11,11 +11,11 @@
 
 ## Perfil
 
-Tenho interesse genuíno em entender como as coisas funcionam por trás da tela, não só usar o programa, mas saber o porquê de funcionar daquele jeito. Por isso venho estudando Python, Java e CSS, sempre buscando colocar em prática o que aprendo na teoria. Aprendo rápido quando me interesso por um assunto, e isso tem me ajudado bastante com banco de dados e inteligência artificial — áreas que quero seguir aprofundando.
+Gosto de entender como as coisas funcionam por trás da tela. Não me basta usar um programa, quero saber por que ele funciona daquele jeito. Por isso estudo Python, Java e CSS e sempre tento colocar em prática o que aprendo. Banco de dados e inteligência artificial são as áreas que mais me chamam atenção e onde quero me aprofundar.
 
-Entre os colegas, costumo ser a pessoa que ajuda quando alguém trava em um exercício; gosto de explicar com calma até a pessoa entender de verdade, e isso exige paciência, porque cada um aprende no seu tempo. Sou autodidata, costumo confiar no meu instinto pra resolver as coisas, e prefiro ser direto e sincero quando estou trabalhando com outras pessoas, pra não ficar guardando algo e virar problema depois.
+Sou autodidata e aprendo rápido quando o assunto me interessa. Entre os colegas, sou quem costuma ajudar quando alguém trava num exercício. Gosto de explicar com calma até a pessoa entender de verdade, porque cada um tem seu tempo. No trabalho em equipe, prefiro falar as coisas logo e com clareza, pra não virar problema depois.
 
-Objetivo: Conseguir uma oportunidade onde eu possa colocar em prática o que venho estudando, e ao mesmo tempo continuar aprendendo, seja com a equipe ou com os desafios do dia a dia.
+Se eu não entendo por que algo funcionou, não fico satisfeito. Essa curiosidade me faz aprender mais rápido, resolver problemas por conta própria e ajudar quem está ao lado a chegar lá também.
 
 ### Hard Skills
 
