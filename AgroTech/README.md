@@ -18,7 +18,7 @@ Sistema fictício para gestão de hortas comunitárias administradas pelo Sr. Ca
 | 4 | Entrega Final do MVP | Teste de usabilidade e pitch | [Acessar](./Prototipagem%20de%20Sistemas%20Computacionais/04-sprint-mvp-validacao/README.md) |
 
 ## 🌐 Site do portfólio
-[Abrir o site](https://github.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/blob/main/AgroTech/Prototipagem%20de%20Sistemas%20Computacionais/docs/index.html) (GitHub Pages, com todas as imagens e o wireframe funcionando).
+[Abrir o site](https://raw.githack.com/dark60895-cpu/portfolio-guilherme-da-silva-ferreira-batista/main/AgroTech/Prototipagem%20de%20Sistemas%20Computacionais/docs/index.html) (página completa, com todas as imagens e o wireframe funcionando).
 
 ## 🖼️ Prévia
 
